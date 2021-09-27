@@ -1,0 +1,11 @@
+framework module BleConnect {
+  umbrella header "BleConnect.h"
+
+  export *
+  module * { export * }
+}
+
+module BleConnect.Swift {
+    header "BleConnect-Swift.h"
+    requires objc
+}

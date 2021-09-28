@@ -1,19 +1,17 @@
-// swift-tools-version:4.0
+// swift-tools-version:5.3
 import PackageDescription
-
 let package = Package(
     name: "BleConnect",
-    defaultLocalization: "en",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v11)
     ],
-//     products: [
-//         .library(
-//             name: "BleConnect",
-//             targets: ["BleConnect.xcframework"])
-//     ],
-   .binaryTarget(
-            name: "BleConnect",
-            path: "BleConnect.xcframework"
-        )
-)
+    products: [
+        .library(
+            name: "BleConnect", 
+            targets: ["BleConnect"])
+    ],
+    targets: [
+        .binaryTarget(
+            name: "BleConnect", 
+            path: "BleConnect.xcframework")
+    ])

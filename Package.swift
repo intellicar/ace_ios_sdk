@@ -7,11 +7,11 @@ let package = Package(
     platforms: [
         .iOS(.v13)
     ],
-    products: [
-        .library(
-            name: "BleConnect",
-            targets: ["BleConnect"])
-    ],
+//     products: [
+//         .library(
+//             name: "BleConnect",
+//             targets: ["BleConnect.xcframework"])
+//     ],
    .binaryTarget(
             name: "BleConnect",
             path: "BleConnect.xcframework"

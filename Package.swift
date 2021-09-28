@@ -11,12 +11,8 @@ let package = Package(
             name: "BleConnect",
             targets: ["BleConnect"])
     ],
-    dependencies: [
-          .package(url: "https://github.com/intellicar/ace_ios_sdk", .branch("main")),
-    ],
-    targets: [
-        .binaryTarget(
-        name: "BleConnect",
-        path: "BleConnect.xcframework")
-    ]
+   .binaryTarget(
+            name: "BleConnect",
+            path: "BleConnect.xcframework"
+        )
 )

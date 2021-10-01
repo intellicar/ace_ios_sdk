@@ -13,7 +13,6 @@ import Swift
   @objc deinit
 }
 @_hasMissingDesignatedInitializers open class BleConnect {
-  public init()
   public var enableDebug: Swift.Bool
   public func start()
   public func stopScan()

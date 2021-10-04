@@ -5,6 +5,8 @@
 import CoreBluetooth
 import Foundation
 import Swift
+public struct BleConfig {
+}
 @_hasMissingDesignatedInitializers open class BaseModule {
   public func test()
   @objc deinit
@@ -12,12 +14,12 @@ import Swift
 @_hasMissingDesignatedInitializers open class Converter {
   @objc deinit
 }
-@_hasMissingDesignatedInitializers open class BleConnect {
+open class BleConnect {
   public var enableDebug: Swift.Bool
-  public func start()
-  public func stopScan()
-  public func disconnectDevice()
-  public func lock()
+  public init(config: BleConnect.BleConfig, enableDebug: Swift.Bool = false)
+  public func connect()
+  public func disconnect()
+  public func getBluetoothState() -> CoreBluetooth.CBManagerState?
   @objc deinit
 }
 public typealias Byte = Swift.UInt8

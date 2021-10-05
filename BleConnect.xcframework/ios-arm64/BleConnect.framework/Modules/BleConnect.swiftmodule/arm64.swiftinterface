@@ -15,7 +15,6 @@ public struct BleConfig {
   @objc deinit
 }
 open class BleConnect {
-  public var enableDebug: Swift.Bool
   required public init(config: BleConnect.BleConfig, enableDebug: Swift.Bool = false)
   public func scanAndConnect()
   public func disconnect()

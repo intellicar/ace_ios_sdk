@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/BleConfig.swift</key>
 		<data>
-		8mrp8YPWSmmRqWVIC4zLKX1B3xU=
+		TVqjBpl/9Pq0UqyLKugbKdQ8oCA=
 		</data>
 		<key>Headers/BleConnect-Swift.h</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/BleConnect.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		DPMPeLXpvNZFbHziEzPHl383xB0=
+		wV+lJHnRQTgAcKRANVPhCk8lR8I=
 		</data>
 		<key>Modules/BleConnect.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		T2SE6GV5ELcrUTg7C3QTGOEfKlI=
+		ek+frydBJQ6zAK36IC9le4IfR2I=
 		</data>
 		<key>Modules/BleConnect.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/BleConnect.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		DPMPeLXpvNZFbHziEzPHl383xB0=
+		wV+lJHnRQTgAcKRANVPhCk8lR8I=
 		</data>
 		<key>Modules/BleConnect.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		T2SE6GV5ELcrUTg7C3QTGOEfKlI=
+		ek+frydBJQ6zAK36IC9le4IfR2I=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -55,7 +55,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZvJRVU/BWVtzOyzTEcJv/s52c1Z2kzA+L8Q8yIeA+oU=
+			Lxvd6R7zkXNWPLf9GzwusdSSFJQTKc2fuXUlyBVqzOo=
 			</data>
 		</dict>
 		<key>Headers/BleConnect-Swift.h</key>
@@ -83,14 +83,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y/EBUuu2di3/PA6AFz/hLbKbeSQ9/c47JL6j1DMladc=
+			qGmKevl8uLaYMD0MQqipu54HgMf7LXITEmIt0+3N1dE=
 			</data>
 		</dict>
 		<key>Modules/BleConnect.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jaj2D4/ygCMvjJgbQ9CEoYY4u/f3he3iYODzNW1+hic=
+			ViSAeqCTySdwBroczp1SNSz6pknjIzRLTbYSvbgjVhM=
 			</data>
 		</dict>
 		<key>Modules/BleConnect.swiftmodule/arm64.swiftdoc</key>
@@ -104,14 +104,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y/EBUuu2di3/PA6AFz/hLbKbeSQ9/c47JL6j1DMladc=
+			qGmKevl8uLaYMD0MQqipu54HgMf7LXITEmIt0+3N1dE=
 			</data>
 		</dict>
 		<key>Modules/BleConnect.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jaj2D4/ygCMvjJgbQ9CEoYY4u/f3he3iYODzNW1+hic=
+			ViSAeqCTySdwBroczp1SNSz6pknjIzRLTbYSvbgjVhM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -5,8 +5,6 @@
 import CoreBluetooth
 import Foundation
 import Swift
-public struct BleConfig {
-}
 @_hasMissingDesignatedInitializers open class BaseModule {
   public func test()
   @objc deinit
@@ -14,12 +12,38 @@ public struct BleConfig {
 @_hasMissingDesignatedInitializers open class Converter {
   @objc deinit
 }
-open class BleConnect {
+public enum State {
+  case scanning
+  case scanningStoped
+  case found
+  case notFound
+  case connecting
+  case failledToConnect
+  case connected
+  case disConnected
+  case authorized
+  case unAuthorized
+  public static func == (a: BleConnect.State, b: BleConnect.State) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+open class ACE {
+  public var recivedData: ((Foundation.Data) -> ())?
+  public var deviceBluetoothStatus: ((CoreBluetooth.CBManagerState) -> ())?
+  public var connectionStatus: ((BleConnect.State, Swift.Error?) -> ())?
   required public init(config: BleConnect.BleConfig, enableDebug: Swift.Bool = false)
   public func scanAndConnect()
   public func disconnect()
   public func getBluetoothState() -> CoreBluetooth.CBManagerState?
   @objc deinit
+}
+public struct BleConfig {
+  public var scanTimeout: Swift.Double
+  public var connectionTimeout: Swift.Double
+  public var isDebugEnabled: Swift.Bool
+  public init(isDebugEnabled: Swift.Bool = false, scanTimeout: Foundation.TimeInterval = 30, connectionTimeout: Foundation.TimeInterval = 30)
 }
 public typealias Byte = Swift.UInt8
 public typealias Long = Swift.UInt64
@@ -27,3 +51,5 @@ public typealias ByteArray = [Swift.UInt8]
 public typealias Short = Swift.UInt16
 public typealias Response = [Swift.String : Any]
 public typealias numberOfPermissionCount = Swift.Int
+extension BleConnect.State : Swift.Equatable {}
+extension BleConnect.State : Swift.Hashable {}

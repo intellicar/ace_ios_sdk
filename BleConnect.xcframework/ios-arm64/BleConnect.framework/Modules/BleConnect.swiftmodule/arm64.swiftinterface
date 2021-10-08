@@ -9,6 +9,9 @@ import Swift
   public func test()
   @objc deinit
 }
+@_hasMissingDesignatedInitializers public class ReadData<T> {
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers open class Converter {
   @objc deinit
 }
@@ -37,6 +40,7 @@ open class ACE {
   public func scanAndConnect()
   public func disconnect()
   public func getBluetoothState() -> CoreBluetooth.CBManagerState?
+  public func lock()
   @objc deinit
 }
 public struct BleConfig {

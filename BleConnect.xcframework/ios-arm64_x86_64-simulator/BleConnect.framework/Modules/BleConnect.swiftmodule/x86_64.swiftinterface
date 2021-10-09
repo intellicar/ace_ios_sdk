@@ -6,10 +6,6 @@ import CoreBluetooth
 import Foundation
 import Swift
 import UIKit
-@_hasMissingDesignatedInitializers open class BaseModule {
-  public func test()
-  @objc deinit
-}
 @_hasMissingDesignatedInitializers public class ReadData<T> {
   @objc deinit
 }
@@ -34,7 +30,7 @@ public enum State {
   }
 }
 open class ACE {
-  public var recivedData: ((Foundation.Data) -> ())?
+  public var recivedData: ((Swift.AnyObject?) -> ())?
   public var deviceBluetoothStatus: ((CoreBluetooth.CBManagerState) -> ())?
   public var connectionStatus: ((BleConnect.State, Swift.Error?) -> ())?
   required public init(config: BleConnect.BleConfig, enableDebug: Swift.Bool = false)

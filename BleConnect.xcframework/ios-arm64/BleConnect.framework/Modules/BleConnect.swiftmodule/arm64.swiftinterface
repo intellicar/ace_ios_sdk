@@ -5,6 +5,7 @@
 import CoreBluetooth
 import Foundation
 import Swift
+import UIKit
 @_hasMissingDesignatedInitializers open class BaseModule {
   public func test()
   @objc deinit

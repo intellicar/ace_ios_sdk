@@ -30,7 +30,8 @@ public enum State {
   }
 }
 open class ACE {
-  public var recivedData: ((Swift.AnyObject?) -> ())?
+  public var responseData: ((Swift.AnyObject?, Swift.Error) -> ())?
+  public var deviceInfo: ((Swift.AnyObject?) -> ())?
   public var deviceBluetoothStatus: ((CoreBluetooth.CBManagerState) -> ())?
   public var connectionStatus: ((BleConnect.State, Swift.Error?) -> ())?
   required public init(config: BleConnect.BleConfig, enableDebug: Swift.Bool = false)

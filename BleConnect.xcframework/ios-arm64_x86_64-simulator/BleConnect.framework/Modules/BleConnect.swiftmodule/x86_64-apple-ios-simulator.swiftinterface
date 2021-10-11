@@ -41,12 +41,24 @@ open class ACE {
   public func lock()
   @objc deinit
 }
+open class L5GpsModel {
+  public init()
+  public func getSize() -> Swift.Int
+  public func write(outBuffer: inout BleConnect.ByteArray, startPos: Swift.Int, maxPos: Swift.Int) -> Swift.Int
+  @objc deinit
+}
 public struct BleConfig {
   public let name: Swift.String
   public var scanTimeout: Swift.Double
   public var connectionTimeout: Swift.Double
   public var isDebugEnabled: Swift.Bool
   public init(isDebugEnabled: Swift.Bool = false, scanTimeout: Foundation.TimeInterval = 30, connectionTimeout: Foundation.TimeInterval = 30, name: Swift.String)
+}
+open class L5GsmModel {
+  public init()
+  public func getSize() -> Swift.Int
+  public func write(outBuffer: inout BleConnect.ByteArray, startPos: Swift.Int, maxPos: Swift.Int) -> Swift.Int
+  @objc deinit
 }
 public typealias Byte = Swift.UInt8
 public typealias Long = Swift.UInt64

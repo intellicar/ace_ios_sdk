@@ -6,10 +6,95 @@ import CoreBluetooth
 import Foundation
 import Swift
 import UIKit
+@_hasMissingDesignatedInitializers open class GpsGnrmcInfo {
+  public var data_valid: Swift.Int?
+  public var hour: Swift.Int?
+  public var min: Swift.Int?
+  public var sec: Swift.Int?
+  public var msec: Swift.Int?
+  public var lat: Swift.Int?
+  public var lng: Swift.Int?
+  public var lat_lng_dir: Swift.Int?
+  public var speed_knots: Swift.Int?
+  public var heading: Swift.Int?
+  public var date: Swift.Int?
+  public var month: Swift.Int?
+  public var year: Swift.Int?
+  public var pos_mode: Swift.Int?
+  public func getLatitude() -> Swift.Double
+  public func getLongitude() -> Swift.Double
+  public func getSize() -> Swift.Int
+  public func write(outBuffer: inout BleConnect.ByteArray, startPos: Swift.Int, maxPos: Swift.Int) -> Swift.Int
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers open class GsmEng_0 {
+  public var mcc: Swift.Int?
+  public var mnc: Swift.Int?
+  public var lac: Swift.Int?
+  public var cellid: Swift.Int?
+  public var bcch: Swift.Int?
+  public var bsic: Swift.Int?
+  public var dbM: Swift.Int?
+  public var c1_value: Swift.Int?
+  public var c2_value: Swift.Int?
+  public var txp: Swift.Int?
+  public var rla: Swift.Int?
+  public var tch: Swift.Int?
+  public var ts: Swift.Int?
+  public var maio: Swift.Int?
+  public var hsn: Swift.Int?
+  public var ta: Swift.Int?
+  public var rxq_sub: Swift.Int?
+  public var rxq_full: Swift.Int?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers open class GsmEng_2 {
+  public var arfcn: [Swift.Int]
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers open class GpsGnggaInfo {
+  public var hour: Swift.Int?
+  public var min: Swift.Int?
+  public var sec: Swift.Int?
+  public var msec: Swift.Int?
+  public var lat: Swift.Int?
+  public var lng: Swift.Int?
+  public var lat_lng_dir: Swift.Int?
+  public var gps_quality: Swift.Int?
+  public var nsat_in_use: Swift.Int?
+  public var hdop: Swift.Int?
+  public var alt: Swift.Int?
+  public var undulation: Swift.Int?
+  public func getLatitude() -> Swift.Double
+  public func getLongitude() -> Swift.Double
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers open class GpsGnvtgInfo {
+  public var heading: Swift.Int?
+  public var speed_knots: Swift.Int?
+  public var speed_kmph: Swift.Int?
+  public var sec: Swift.Int?
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers public class ReadData<T> {
   @objc deinit
 }
+@_hasMissingDesignatedInitializers open class GpsGpgsaInfo {
+  public var modeMA: Swift.Int?
+  public var mode123: Swift.Int?
+  public var nprn: Swift.Int?
+  public var prn12: [Swift.Int]
+  public var pdop: Swift.Int?
+  public var hdop: Swift.Int?
+  public var vdop: Swift.Int?
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers open class Converter {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers open class GsmEng_4 {
+  public var nrecords: Swift.Int?
+  public var ba: [BleConnect.GsmEng_3]
   @objc deinit
 }
 public enum State {
@@ -29,6 +114,12 @@ public enum State {
     get
   }
 }
+@_hasMissingDesignatedInitializers open class GsmEng_3 {
+  public var bcch: Swift.Int?
+  public var dbm: Swift.Int?
+  public var bsic: Swift.Int?
+  @objc deinit
+}
 open class ACE {
   public var responseData: ((Swift.AnyObject?, Swift.Error) -> ())?
   public var deviceInfo: ((Swift.AnyObject?) -> ())?
@@ -41,10 +132,27 @@ open class ACE {
   public func lock()
   @objc deinit
 }
-open class L5GpsModel {
-  public init()
-  public func getSize() -> Swift.Int
-  public func write(outBuffer: inout BleConnect.ByteArray, startPos: Swift.Int, maxPos: Swift.Int) -> Swift.Int
+@_hasMissingDesignatedInitializers open class L5GpsModel {
+  public var gnrmc: BleConnect.GpsGnrmcInfo?
+  public var gnvtg: BleConnect.GpsGnvtgInfo?
+  public var gngga: BleConnect.GpsGnggaInfo?
+  public var gpgsa: BleConnect.GpsGpgsaInfo?
+  public var glgsa: BleConnect.GpsGlgasInfo?
+  public var gpgsv: BleConnect.GpsGpgsvInfo?
+  public var glgsv: BleConnect.GpsGlgsvInfo?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers open class GpsGlgsvInner {
+  public var prn: Swift.Int?
+  public var elev: Swift.Int?
+  public var azimuth: Swift.Int?
+  public var snr: Swift.Int?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers open class GpsGlgsvInfo {
+  public var nsatellites: Swift.Int?
+  public var nsatelliteprn: Swift.Int?
+  public var inner: [BleConnect.GpsGlgsvInner]?
   @objc deinit
 }
 public struct BleConfig {
@@ -54,10 +162,47 @@ public struct BleConfig {
   public var isDebugEnabled: Swift.Bool
   public init(isDebugEnabled: Swift.Bool = false, scanTimeout: Foundation.TimeInterval = 30, connectionTimeout: Foundation.TimeInterval = 30, name: Swift.String)
 }
-open class L5GsmModel {
-  public init()
-  public func getSize() -> Swift.Int
-  public func write(outBuffer: inout BleConnect.ByteArray, startPos: Swift.Int, maxPos: Swift.Int) -> Swift.Int
+@_hasMissingDesignatedInitializers open class GsmEng_1 {
+  public var ncell: Swift.Int?
+  public var bcch: Swift.Int?
+  public var dbm: Swift.Int?
+  public var bsic: Swift.Int?
+  public var c1_value: Swift.Int?
+  public var c2_value: Swift.Int?
+  public var mcc: Swift.Int?
+  public var mnc: Swift.Int?
+  public var lac: Swift.Int?
+  public var cellid: Swift.Int?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers open class L5GsmModel {
+  public var eng_0: BleConnect.GsmEng_0?
+  public var eng_1: [BleConnect.GsmEng_1]
+  public var eng_2: BleConnect.GsmEng_2?
+  public var eng_4: BleConnect.GsmEng_4?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers open class GpsGlgasInfo {
+  public var modeMA: Swift.Int?
+  public var mode123: Swift.Int?
+  public var nprn: Swift.Int?
+  public var prn12: [Swift.Int]
+  public var pdop: Swift.Int?
+  public var hdop: Swift.Int?
+  public var vdop: Swift.Int?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers open class GpsGpgsvInner {
+  public var prn: Swift.Int?
+  public var elev: Swift.Int?
+  public var azimuth: Swift.Int?
+  public var snr: Swift.Int?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers open class GpsGpgsvInfo {
+  public var nsatellites: Swift.Int?
+  public var nsatelliteprn: Swift.Int?
+  public var inner: [BleConnect.GpsGpgsvInner]?
   @objc deinit
 }
 public typealias Byte = Swift.UInt8

@@ -1,11 +1,13 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
 // swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BleConnect
 @_exported import BleConnect
 import CoreBluetooth
+import CryptoKit
 import Foundation
 import Swift
 import UIKit
+import _Concurrency
 @_hasMissingDesignatedInitializers open class GpsGnggaInfo : Swift.Codable {
   @objc deinit
   open func encode(to encoder: Swift.Encoder) throws
@@ -60,7 +62,7 @@ open class ACE {
   public var responseData: ((Foundation.Data, Swift.Error) -> ())?
   public var deviceInfo: ((Foundation.Data) -> ())?
   public var deviceBluetoothStatus: ((CoreBluetooth.CBManagerState) -> ())?
-  public var connectionStatus: ((BleConnect.State, Swift.Error?) -> ())?
+  public var connectionStatus: ((_ state: BleConnect.State, _ error: Swift.Error?) -> ())?
   required public init(config: BleConnect.BleConfig, enableDebug: Swift.Bool = false)
   public func scanAndConnect()
   public func disconnect()

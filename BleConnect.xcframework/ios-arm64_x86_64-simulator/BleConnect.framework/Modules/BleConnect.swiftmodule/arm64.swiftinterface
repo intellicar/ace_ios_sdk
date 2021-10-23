@@ -68,8 +68,9 @@ open class ACE {
   public func disconnect()
   public func getBluetoothState() -> CoreBluetooth.CBManagerState?
   public func lock()
-  public func _GSM_EBT(key: Swift.String)
   public func _GPS_EBT(key: Swift.String)
+  public func _GSM_EBT(key: Swift.String)
+  public func _ACC_EBT(key: Swift.String)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers open class GpsGlgsvInner : Swift.Codable {

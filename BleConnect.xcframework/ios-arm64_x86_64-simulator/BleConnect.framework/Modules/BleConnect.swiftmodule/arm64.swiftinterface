@@ -21,6 +21,7 @@ import _Concurrency
 @_hasMissingDesignatedInitializers public class ReadData<T> {
   @objc deinit
 }
+infix operator >>> : BitwiseShiftPrecedence
 @_hasMissingDesignatedInitializers open class GpsGpgsaInfo : Swift.Codable {
   public var modeMA: Swift.Int?
   public var mode123: Swift.Int?

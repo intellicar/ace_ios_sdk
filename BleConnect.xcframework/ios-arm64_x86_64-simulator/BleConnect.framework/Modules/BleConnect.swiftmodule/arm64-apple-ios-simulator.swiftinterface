@@ -51,6 +51,18 @@ public enum State {
     get
   }
 }
+@_hasMissingDesignatedInitializers public class LAFCanInfoV1_7_Snapshot : Swift.Codable {
+  public var parameterId: Swift.Int
+  public var snapshotInterval: Swift.Int
+  public var nsnapshots: Swift.Int
+  public var parameterValueSize: Swift.Int
+  public var parameterValue: BleConnect.ByteArray
+  public func getSnapshotSize() -> Swift.Int
+  public func writeSnapshotData(outBuffer: inout BleConnect.ByteArray, startPos: Swift.Int, maxPos: Swift.Int) -> Swift.Int
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
 @_hasMissingDesignatedInitializers open class GsmEng_3 : Swift.Codable {
   public var bcch: Swift.Int?
   public var dbm: Swift.Int?

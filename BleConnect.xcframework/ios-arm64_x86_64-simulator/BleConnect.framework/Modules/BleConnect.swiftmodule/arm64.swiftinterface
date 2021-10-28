@@ -82,6 +82,7 @@ open class ACE {
   public func getBluetoothState() -> CoreBluetooth.CBManagerState?
   public func lock()
   public func sendRequstModules(modulesId: [Swift.Int])
+  public func sendToken()
   public func _GPS_EBT(key: Swift.String)
   public func _GSM_EBT(key: Swift.String)
   public func _Invalid_EBT(key: Swift.String)

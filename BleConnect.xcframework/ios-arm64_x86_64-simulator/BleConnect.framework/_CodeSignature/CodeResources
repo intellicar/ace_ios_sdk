@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/BleConnect.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		hjCERSmha076yPnMz1t+5uXz08s=
+		rdav7lYeI7T+8Gj0tioP4PjWKe0=
 		</data>
 		<key>Modules/BleConnect.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		mwoaOS2gmCzfDCaZdizRQyx6mFs=
+		0ZZsZSqGzANP0zHAGGO2zM/LpbQ=
 		</data>
 		<key>Modules/BleConnect.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/BleConnect.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		hjCERSmha076yPnMz1t+5uXz08s=
+		rdav7lYeI7T+8Gj0tioP4PjWKe0=
 		</data>
 		<key>Modules/BleConnect.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		mwoaOS2gmCzfDCaZdizRQyx6mFs=
+		0ZZsZSqGzANP0zHAGGO2zM/LpbQ=
 		</data>
 		<key>Modules/BleConnect.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/BleConnect.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		GZK5NaUn47LA6uzl7CjnqWVc8bU=
+		NT9B4FFKg1u+d6YQ9CgBQzl1n2k=
 		</data>
 		<key>Modules/BleConnect.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		XZN5Dw26r7loXGR4r4+6bioGfmY=
+		uWA18Icl2uqgLM8dGVd+zoAF18E=
 		</data>
 		<key>Modules/BleConnect.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>Modules/BleConnect.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		GZK5NaUn47LA6uzl7CjnqWVc8bU=
+		NT9B4FFKg1u+d6YQ9CgBQzl1n2k=
 		</data>
 		<key>Modules/BleConnect.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		XZN5Dw26r7loXGR4r4+6bioGfmY=
+		uWA18Icl2uqgLM8dGVd+zoAF18E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -107,14 +107,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QsXYAXj1qP3oYO5PG+U8141mowBAAsbocetO7IjqdQs=
+			I6FqhaK5OZ+X6BAXf+vsj3JmeYp0Gb6wHvD366hk2eA=
 			</data>
 		</dict>
 		<key>Modules/BleConnect.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			y5eBanAiblbfeT/LY0MOXOmtrXXEdmrgSsTFMsellZo=
+			kQT+XPlKgMfVxgO4aY1SBGKnFs9Eqg8XRsh1m+w7Yvc=
 			</data>
 		</dict>
 		<key>Modules/BleConnect.swiftmodule/arm64.swiftdoc</key>
@@ -128,14 +128,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QsXYAXj1qP3oYO5PG+U8141mowBAAsbocetO7IjqdQs=
+			I6FqhaK5OZ+X6BAXf+vsj3JmeYp0Gb6wHvD366hk2eA=
 			</data>
 		</dict>
 		<key>Modules/BleConnect.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			y5eBanAiblbfeT/LY0MOXOmtrXXEdmrgSsTFMsellZo=
+			kQT+XPlKgMfVxgO4aY1SBGKnFs9Eqg8XRsh1m+w7Yvc=
 			</data>
 		</dict>
 		<key>Modules/BleConnect.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -149,14 +149,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QIcVtWNNo5+MsdhrE+E4NT1eSjPVu8eZPoD6CIwX00s=
+			VB1gvURa0SjUvpUoO/BNzMAPfcE81zmYzvRIMIZ/if8=
 			</data>
 		</dict>
 		<key>Modules/BleConnect.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6ELRZ7hrfrsiSMRx+pPSL6RWIh65oZ0kYxTwNNP14nI=
+			V2p+QAEwG8//DR3vXZNOABahoVsvOZ5PY3wQAArLBG4=
 			</data>
 		</dict>
 		<key>Modules/BleConnect.swiftmodule/x86_64.swiftdoc</key>
@@ -170,14 +170,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QIcVtWNNo5+MsdhrE+E4NT1eSjPVu8eZPoD6CIwX00s=
+			VB1gvURa0SjUvpUoO/BNzMAPfcE81zmYzvRIMIZ/if8=
 			</data>
 		</dict>
 		<key>Modules/BleConnect.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6ELRZ7hrfrsiSMRx+pPSL6RWIh65oZ0kYxTwNNP14nI=
+			V2p+QAEwG8//DR3vXZNOABahoVsvOZ5PY3wQAArLBG4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

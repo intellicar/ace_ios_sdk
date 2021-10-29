@@ -57,6 +57,7 @@ public enum State {
   public var nsnapshots: Swift.Int
   public var parameterValueSize: Swift.Int
   public var parameterValue: BleConnect.ByteArray
+  public var processedValues: [Swift.Int32]
   public func getSnapshotSize() -> Swift.Int
   public func writeSnapshotData(outBuffer: inout BleConnect.ByteArray, startPos: Swift.Int, maxPos: Swift.Int) -> Swift.Int
   @objc deinit

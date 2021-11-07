@@ -8,6 +8,9 @@ import Foundation
 import Swift
 import UIKit
 import _Concurrency
+@_hasMissingDesignatedInitializers public class CAN2_0TXModule {
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers open class GpsGnggaInfo : Swift.Codable {
   @objc deinit
   open func encode(to encoder: Swift.Encoder) throws

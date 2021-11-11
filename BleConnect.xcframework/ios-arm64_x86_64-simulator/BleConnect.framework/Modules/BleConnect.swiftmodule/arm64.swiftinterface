@@ -11,12 +11,12 @@ import _Concurrency
 @_hasMissingDesignatedInitializers public class CAN2_0TXModule {
   @objc deinit
 }
-@_hasMissingDesignatedInitializers open class GpsGnggaInfo : Swift.Codable {
+@_hasMissingDesignatedInitializers open class GPSGNGGAInfo : Swift.Codable {
   @objc deinit
   open func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
 }
-@_hasMissingDesignatedInitializers open class GpsGnvtgInfo : Swift.Codable {
+@_hasMissingDesignatedInitializers open class GPSGNVTGInfo : Swift.Codable {
   @objc deinit
   open func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
@@ -25,7 +25,7 @@ import _Concurrency
   @objc deinit
 }
 infix operator >>> : BitwiseShiftPrecedence
-@_hasMissingDesignatedInitializers open class GpsGpgsaInfo : Swift.Codable {
+@_hasMissingDesignatedInitializers open class GPSGPGSAInfo : Swift.Codable {
   public var modeMA: Swift.Int?
   public var mode123: Swift.Int?
   public var nprn: Swift.Int?
@@ -54,7 +54,7 @@ public enum State {
     get
   }
 }
-@_hasMissingDesignatedInitializers public class LAFCanInfoV1_7_Snapshot : Swift.Codable {
+@_hasMissingDesignatedInitializers public class LAFCanInfoV1_Snapshot : Swift.Codable {
   public var parameterId: Swift.Int
   public var snapshotInterval: Swift.Int
   public var nsnapshots: Swift.Int
@@ -68,7 +68,7 @@ public enum State {
   public func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
 }
-@_hasMissingDesignatedInitializers open class GsmEng_3 : Swift.Codable {
+@_hasMissingDesignatedInitializers open class GSMQENG_3 : Swift.Codable {
   public var bcch: Swift.Int?
   public var dbm: Swift.Int?
   public var bsic: Swift.Int?
@@ -94,12 +94,12 @@ open class ACE {
   public func _ENC_EBT(key: Swift.String)
   @objc deinit
 }
-@_hasMissingDesignatedInitializers open class GpsGlgsvInner : Swift.Codable {
+@_hasMissingDesignatedInitializers open class GPSGLGSVInfoInner : Swift.Codable {
   @objc deinit
   open func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
 }
-@_hasMissingDesignatedInitializers open class GpsGlgsvInfo : Swift.Codable {
+@_hasMissingDesignatedInitializers open class GPSGLGSVInfo : Swift.Codable {
   @objc deinit
   open func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
@@ -113,17 +113,17 @@ public struct BleConfig {
   public var connectionTimeout: Swift.Double
   public init(isDebugEnabled: Swift.Bool = false, scanTimeout: Foundation.TimeInterval = 30, connectionTimeout: Foundation.TimeInterval = 30, name: Swift.String)
 }
-@_hasMissingDesignatedInitializers open class GpsGlgasInfo : Swift.Codable {
+@_hasMissingDesignatedInitializers open class GPSGLGSAInfo : Swift.Codable {
   @objc deinit
   open func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
 }
-@_hasMissingDesignatedInitializers open class GpsGpgsvInner : Swift.Codable {
+@_hasMissingDesignatedInitializers open class GPSGPGSVInfoInner : Swift.Codable {
   @objc deinit
   open func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
 }
-@_hasMissingDesignatedInitializers open class GpsGpgsvInfo : Swift.Codable {
+@_hasMissingDesignatedInitializers open class GPSGPGSVInfo : Swift.Codable {
   @objc deinit
   open func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws

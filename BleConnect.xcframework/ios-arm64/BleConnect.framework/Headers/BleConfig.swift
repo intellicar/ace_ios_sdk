@@ -19,17 +19,14 @@ public struct BleConfig{
     public var rawBeaconDebug = false
     public var LA5BeaconDebug = false
     //
-    public let name:String
     public var scanTimeout:TimeInterval = 30
     public var connectionTimeout:TimeInterval = 30
     
     
     
-    public init(isDebugEnabled:Bool=false,scanTimeout:TimeInterval = 30,connectionTimeout:TimeInterval = 30,name:String) {
+    public init(isDebugEnabled:Bool=false,scanTimeout:TimeInterval = 30,connectionTimeout:TimeInterval = 30) {
         self.isDebugEnabled = isDebugEnabled
         self.scanTimeout = scanTimeout
         self.connectionTimeout = connectionTimeout
-        self.name = name
-        
     }
 }

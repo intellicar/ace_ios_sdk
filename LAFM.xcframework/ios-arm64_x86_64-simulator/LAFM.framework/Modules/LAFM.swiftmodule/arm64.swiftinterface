@@ -430,7 +430,7 @@ extension Swift.Array where Element == Swift.UInt8 {
 }
 @_hasMissingDesignatedInitializers open class Device {
   public static let shared: LAFM.Device
-  public var recivedData: ((LAFM.JSON) -> ())?
+  public var callbackHandler: ((LAFM.JSON) -> ())?
   public func exec(command: LAFM.JSON)
   public func setToken(token: LAFM.JSON, phonePrivatKey: CryptoKit.Curve25519.KeyAgreement.PrivateKey, enableDebug: Swift.Bool = false)
   @objc deinit

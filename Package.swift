@@ -1,17 +1,17 @@
 // swift-tools-version:5.3
 import PackageDescription
 let package = Package(
-    name: "BleConnect",
+    name: "LAFM",
     platforms: [
         .iOS(.v11)
     ],
     products: [
         .library(
-            name: "BleConnect", 
-            targets: ["BleConnect"])
+            name: "LAFM", 
+            targets: ["LAFM"])
     ],
     targets: [
         .binaryTarget(
-            name: "BleConnect", 
-            path: "BleConnect.xcframework")
+            name: "LAFM", 
+            path: "LAFM.xcframework")
     ])

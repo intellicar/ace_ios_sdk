@@ -1,0 +1,11 @@
+framework module LAFM {
+  umbrella header "LAFM.h"
+
+  export *
+  module * { export * }
+}
+
+module LAFM.Swift {
+    header "LAFM-Swift.h"
+    requires objc
+}

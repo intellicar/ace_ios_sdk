@@ -403,14 +403,13 @@ public enum State : Swift.String {
     get
   }
 }
-@_hasMissingDesignatedInitializers public class LAFCanInfoV1_Snapshot : Swift.Codable {
+@_hasMissingDesignatedInitializers public class LAFCanInfoV1_7_Snapshot : Swift.Codable {
   public var parameterId: Swift.Int
   public var snapshotInterval: Swift.Int
   public var nsnapshots: Swift.Int
   public var parameterValueSize: Swift.Int
+  public var validityFlag: [LAFM.Short]
   public var parameterValue: LAFM.ByteArray
-  public var processedValues: [Swift.String]
-  public var value: Swift.String?
   public func getSnapshotSize() -> Swift.Int
   public func writeSnapshotData(outBuffer: inout LAFM.ByteArray, startPos: Swift.Int, maxPos: Swift.Int) -> Swift.Int
   @objc deinit

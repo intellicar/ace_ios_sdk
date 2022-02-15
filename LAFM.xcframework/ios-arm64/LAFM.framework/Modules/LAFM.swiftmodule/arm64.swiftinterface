@@ -8,6 +8,27 @@ import Foundation
 import Swift
 import UIKit
 import _Concurrency
+public enum Methods : Swift.String {
+  case options
+  case get
+  case head
+  case post
+  case put
+  case patch
+  case delete
+  case trace
+  case connect
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct StatusInfo {
+}
+public typealias ParameterError = (error: Swift.Error?, urlResponse: Foundation.HTTPURLResponse?)
+public typealias Success<T> = (_ data: T, _ error: Swift.Error?, _ urlResponse: Foundation.HTTPURLResponse?) -> ()
+public typealias RequestError<T> = (_ status: LAFM.StatusInfo, _ error: T?, _ urlResponse: Foundation.HTTPURLResponse?) -> ()
 public enum SwiftyJSONError : Swift.Int, Swift.Error {
   case unsupportedType
   case indexOutOfBounds
@@ -410,6 +431,7 @@ public enum State : Swift.String {
   public var parameterValueSize: Swift.Int
   public var validityFlag: [LAFM.Short]
   public var parameterValue: LAFM.ByteArray
+  public var values: [Swift.UInt64]
   public func getSnapshotSize() -> Swift.Int
   public func writeSnapshotData(outBuffer: inout LAFM.ByteArray, startPos: Swift.Int, maxPos: Swift.Int) -> Swift.Int
   @objc deinit
@@ -473,6 +495,9 @@ public typealias ByteArray = [Swift.UInt8]
 public typealias Short = Swift.UInt16
 public typealias Response = [Swift.String : Any]
 public typealias numberOfPermissionCount = Swift.Int
+extension LAFM.Methods : Swift.Equatable {}
+extension LAFM.Methods : Swift.Hashable {}
+extension LAFM.Methods : Swift.RawRepresentable {}
 extension LAFM.SwiftyJSONError : Swift.Equatable {}
 extension LAFM.SwiftyJSONError : Swift.Hashable {}
 extension LAFM.SwiftyJSONError : Swift.RawRepresentable {}

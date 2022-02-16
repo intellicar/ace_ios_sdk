@@ -4,4 +4,6 @@
 ```
 
 ### Swift package manager (Recommanded)
+```
 Xcode File -> add packages -> search for "https://github.com/intellicar/ace_ios_sdk" 
+```

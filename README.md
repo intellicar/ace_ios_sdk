@@ -1,6 +1,6 @@
 ### cocoapods install
 ```
-  pod 'LAFM', :git => 'https://github.com/intellicar/ace_ios_sdk.git', :tag => '1.0.0' 
+  pod 'LAFM', :git => 'https://github.com/intellicar/ace_ios_sdk.git', :tag => '0.0.81' 
 ```
 
 ### Swift package manager (Recommanded)

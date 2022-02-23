@@ -418,6 +418,7 @@ public enum State : Swift.String {
   case disConnected
   case authorized
   case unAuthorized
+  case rssi
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {

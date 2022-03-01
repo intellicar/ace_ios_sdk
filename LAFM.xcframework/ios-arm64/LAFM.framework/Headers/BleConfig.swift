@@ -24,7 +24,7 @@ public struct BleConfig{
     
     
     
-    public init(isDebugEnabled:Bool=false,scanTimeout:TimeInterval = 30,connectionTimeout:TimeInterval = 30) {
+    public init(isDebugEnabled:Bool=false,scanTimeout:TimeInterval,connectionTimeout:TimeInterval) {
         self.isDebugEnabled = isDebugEnabled
         self.scanTimeout = scanTimeout
         self.connectionTimeout = connectionTimeout

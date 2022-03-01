@@ -453,7 +453,7 @@ extension Swift.Array where Element == Swift.UInt8 {
   public static let shared: LAFM.LAFMDevice
   public var callbackHandler: ((LAFM.JSON) -> ())?
   public func exec(command: LAFM.JSON)
-  public func setToken(token: LAFM.JSON, phonePrivatKey: CryptoKit.Curve25519.KeyAgreement.PrivateKey, enableDebug: Swift.Bool = false)
+  public func setToken(token: LAFM.JSON, phonePrivatKey: CryptoKit.Curve25519.KeyAgreement.PrivateKey, scanTimout: Foundation.TimeInterval = 30, connectionTimeout: Foundation.TimeInterval = 30)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers open class GPSGLGSVInfoInner : Swift.Codable {
@@ -472,7 +472,7 @@ public struct BleConfig {
   public var LA5BeaconDebug: Swift.Bool
   public var scanTimeout: Swift.Double
   public var connectionTimeout: Swift.Double
-  public init(isDebugEnabled: Swift.Bool = false, scanTimeout: Foundation.TimeInterval = 30, connectionTimeout: Foundation.TimeInterval = 30)
+  public init(isDebugEnabled: Swift.Bool = false, scanTimeout: Foundation.TimeInterval, connectionTimeout: Foundation.TimeInterval)
 }
 @_hasMissingDesignatedInitializers open class GPSGLGSAInfo : Swift.Codable {
   @objc deinit

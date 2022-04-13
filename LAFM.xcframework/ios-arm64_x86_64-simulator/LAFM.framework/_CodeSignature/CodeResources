@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/YIXayz7ZRA2SAfeYsljRIVeM6o=
+		aZnBuND6QNSaf2dhlkqA3dm8Lzw=
 		</data>
 		<key>Modules/LAFM.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/LAFM.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ara8arWWV9/602BhwE3uy9asD0s=
+		S7nuKXRrEws+K3/Mm1UEIWpvSg4=
 		</data>
 		<key>Modules/LAFM.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/LAFM.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		ara8arWWV9/602BhwE3uy9asD0s=
+		S7nuKXRrEws+K3/Mm1UEIWpvSg4=
 		</data>
 		<key>Modules/LAFM.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/LAFM.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rr8LFrn15HIFuaddQxExAx1kM3g=
+		6rU3T/pgQW4R+ph+b7GMcBy2SC0=
 		</data>
 		<key>Modules/LAFM.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/LAFM.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		rr8LFrn15HIFuaddQxExAx1kM3g=
+		6rU3T/pgQW4R+ph+b7GMcBy2SC0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -114,7 +114,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZyJi8Wfj1YeTi9SUFGnktp0LC9BxZP9PiFaDobR5lKw=
+			XtQO4PdIPm2CGHR9XRQQ1S48JNqdYEMkpxzS081EkT8=
 			</data>
 		</dict>
 		<key>Modules/LAFM.swiftmodule/arm64.swiftdoc</key>
@@ -135,7 +135,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZyJi8Wfj1YeTi9SUFGnktp0LC9BxZP9PiFaDobR5lKw=
+			XtQO4PdIPm2CGHR9XRQQ1S48JNqdYEMkpxzS081EkT8=
 			</data>
 		</dict>
 		<key>Modules/LAFM.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -156,7 +156,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jm8Ueq3g1KplTPI33KKNdwIwTnwlQd3FJCNyROOqu/c=
+			z+MBsENYBB9TY8Z5LfGho2o2sXApRiHgRiwjWFphxpI=
 			</data>
 		</dict>
 		<key>Modules/LAFM.swiftmodule/x86_64.swiftdoc</key>
@@ -177,7 +177,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jm8Ueq3g1KplTPI33KKNdwIwTnwlQd3FJCNyROOqu/c=
+			z+MBsENYBB9TY8Z5LfGho2o2sXApRiHgRiwjWFphxpI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/LAFM.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		BA5Gv2B0tc0oFAKM3Uh5367HcCs=
+		66JiG4iiLNx87jOD2rW5E7Yh0Wk=
 		</data>
 		<key>Modules/LAFM.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/LAFM.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		BA5Gv2B0tc0oFAKM3Uh5367HcCs=
+		66JiG4iiLNx87jOD2rW5E7Yh0Wk=
 		</data>
 		<key>Modules/LAFM.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/LAFM.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+nVUeof3qz6bXZ8wbPti6cPMSJo=
+		EJyOXs5Dfgu3I4S3CXvVnjYuJLw=
 		</data>
 		<key>Modules/LAFM.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/LAFM.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		+nVUeof3qz6bXZ8wbPti6cPMSJo=
+		EJyOXs5Dfgu3I4S3CXvVnjYuJLw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -114,7 +114,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Um3SluH1S3D1DyQ33e6aXdJ8ekpi/fF4HqjGDHtm1NA=
+			oC219DPAK5cfCps7zhv0dd+rcTIqZQk0CtaYamAaj0Q=
 			</data>
 		</dict>
 		<key>Modules/LAFM.swiftmodule/arm64.swiftdoc</key>
@@ -135,7 +135,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Um3SluH1S3D1DyQ33e6aXdJ8ekpi/fF4HqjGDHtm1NA=
+			oC219DPAK5cfCps7zhv0dd+rcTIqZQk0CtaYamAaj0Q=
 			</data>
 		</dict>
 		<key>Modules/LAFM.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -156,7 +156,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hp6kvPhwdMbimGw4m/CyfDB85v3CqFKTW2tyiZuWw8c=
+			glVVpvrzYqMgaMTV3pdOmJMrOsweZfV1awc2wbWX+qI=
 			</data>
 		</dict>
 		<key>Modules/LAFM.swiftmodule/x86_64.swiftdoc</key>
@@ -177,7 +177,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hp6kvPhwdMbimGw4m/CyfDB85v3CqFKTW2tyiZuWw8c=
+			glVVpvrzYqMgaMTV3pdOmJMrOsweZfV1awc2wbWX+qI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

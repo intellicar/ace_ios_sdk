@@ -453,6 +453,10 @@ extension Swift.Array where Element == Swift.UInt8 {
   public static let shared: LAFM.LAFMDevice
   public var callbackHandler: ((LAFM.JSON) -> ())?
   public func exec(command: LAFM.JSON)
+  public func output1Enable()
+  public func output1Disable()
+  public func output2Enable()
+  public func output2Disable()
   public func setToken(token: LAFM.JSON, phonePrivatKey: CryptoKit.Curve25519.KeyAgreement.PrivateKey, scanTimout: Foundation.TimeInterval = 30, connectionTimeout: Foundation.TimeInterval = 30)
   @objc deinit
 }

@@ -453,7 +453,7 @@ extension Swift.Array where Element == Swift.UInt8 {
   public static let shared: LAFM.LAFMDevice
   public var callbackHandler: ((LAFM.JSON) -> ())?
   public func exec(command: LAFM.JSON)
-  public func kleLock(command: Swift.String)
+  public func kleAction(moduleCode: Swift.Int, command: Swift.String)
   public func deviceReset()
   public func stopCharging()
   public func startCharging()

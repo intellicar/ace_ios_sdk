@@ -6,6 +6,6 @@ framework module LAFM {
 }
 
 module LAFM.Swift {
-    header "LAFM-Swift.h"
-    requires objc
+  header "LAFM-Swift.h"
+  requires objc
 }

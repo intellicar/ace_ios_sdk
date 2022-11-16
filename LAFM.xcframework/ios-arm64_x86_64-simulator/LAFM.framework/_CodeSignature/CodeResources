@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/LAFM-Swift.h</key>
 		<data>
-		vm4+AvhVbX9NjmVHcH/xS7dp/To=
+		AUYrhabILgddrv3zjPb1wFgly7g=
 		</data>
 		<key>Headers/LAFM.h</key>
 		<data>
@@ -18,59 +18,51 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		e8raiQ7N2WwKl43HySQ00qCGm2w=
+		uj+7MrMKseiiNlpXE3kTK0vBNWo=
+		</data>
+		<key>Modules/LAFM.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<data>
+		wtBYk4hk0zCKw+8fjj1jCYHOUtw=
+		</data>
+		<key>Modules/LAFM.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		J8H3ZhEb1f1+BO/AEMqF2/Fjhh0=
 		</data>
 		<key>Modules/LAFM.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		dz2xppooupumc3Fhk4wuD/5BKA0=
+		GLfafmoIEkc/2KzJPebAEYyVbsQ=
 		</data>
 		<key>Modules/LAFM.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		7JRY8Cqy6hSwhvkDUVHyfcXEi7g=
+		J8H3ZhEb1f1+BO/AEMqF2/Fjhh0=
 		</data>
 		<key>Modules/LAFM.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		PH7vpzDdehw7EfnjO9qDaFtzLMM=
+		UvGRyiH+OCnxv3k/D+IBHNIre7E=
 		</data>
-		<key>Modules/LAFM.swiftmodule/arm64.swiftdoc</key>
+		<key>Modules/LAFM.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		dz2xppooupumc3Fhk4wuD/5BKA0=
+		wtBYk4hk0zCKw+8fjj1jCYHOUtw=
 		</data>
-		<key>Modules/LAFM.swiftmodule/arm64.swiftinterface</key>
+		<key>Modules/LAFM.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		7JRY8Cqy6hSwhvkDUVHyfcXEi7g=
-		</data>
-		<key>Modules/LAFM.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		PH7vpzDdehw7EfnjO9qDaFtzLMM=
+		YeNif3T8Xn8Ar8FbdKh4uiHi2Vs=
 		</data>
 		<key>Modules/LAFM.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		l6VMjiWgDyrP3yuxHtqC9EGWnc0=
+		EFo1Lz3N7lzipOfMgQmAvN6bC9w=
 		</data>
 		<key>Modules/LAFM.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		XVjqx87MmcGXsl0VfnGcbfrhGBk=
+		YeNif3T8Xn8Ar8FbdKh4uiHi2Vs=
 		</data>
 		<key>Modules/LAFM.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		DNfk7rsVYu9PJ+TPt6LM3LyKSMU=
-		</data>
-		<key>Modules/LAFM.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		l6VMjiWgDyrP3yuxHtqC9EGWnc0=
-		</data>
-		<key>Modules/LAFM.swiftmodule/x86_64.swiftinterface</key>
-		<data>
-		XVjqx87MmcGXsl0VfnGcbfrhGBk=
-		</data>
-		<key>Modules/LAFM.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		DNfk7rsVYu9PJ+TPt6LM3LyKSMU=
+		ZVKUVhJU3HiiRge6Nz3v6Evj4a0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		+SA6a4PqEvju/nasrDHxpXhxYL0=
+		v3T2EgFJLihlsxbIpiGDk7O6l3c=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -86,7 +78,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OjdEpypzaoXg3YDrXfEDDSilb60eCBWzLYpt73y1vCo=
+			GMbO8tmHpSl6VsT/hHpkq2I61xvYvnmo31v1deRhbXw=
 			</data>
 		</dict>
 		<key>Headers/LAFM.h</key>
@@ -96,95 +88,81 @@
 			NrT8/3QJbQr7lP3HLmLGY4QnnAlM34xBFH3kjURVv3Y=
 			</data>
 		</dict>
+		<key>Modules/LAFM.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fXQhALTV5YxmO6dfEiz/DCNlk6Q6ISr3wMuCj4GIuI4=
+			</data>
+		</dict>
+		<key>Modules/LAFM.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UUKdrGcaz6U4ds6V4Y5iEbkweIzGyshRREE1Znyr9Z8=
+			</data>
+		</dict>
 		<key>Modules/LAFM.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			22S6qN3JwDzoUV3HmrZPzvIcKWqrbvX3AdOvO14Hkr4=
+			qC2Vi2lSQynrkBOijc+DPGb0ooX/DCNPJlXwtjbl8b4=
 			</data>
 		</dict>
 		<key>Modules/LAFM.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XLp1GQJqv/JXzafShe1JaFg1ykeRHKRrzKToi0gFB9A=
+			UUKdrGcaz6U4ds6V4Y5iEbkweIzGyshRREE1Znyr9Z8=
 			</data>
 		</dict>
 		<key>Modules/LAFM.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cMIoMAMCRD97I/5wbwRjlw29gLSGPGDnHzzxPZT65W4=
+			754ti0O225ffAxXnUn0RD3oZoNknqqrvO01k8a6EvuI=
 			</data>
 		</dict>
-		<key>Modules/LAFM.swiftmodule/arm64.swiftdoc</key>
+		<key>Modules/LAFM.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			22S6qN3JwDzoUV3HmrZPzvIcKWqrbvX3AdOvO14Hkr4=
+			fXQhALTV5YxmO6dfEiz/DCNlk6Q6ISr3wMuCj4GIuI4=
 			</data>
 		</dict>
-		<key>Modules/LAFM.swiftmodule/arm64.swiftinterface</key>
+		<key>Modules/LAFM.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XLp1GQJqv/JXzafShe1JaFg1ykeRHKRrzKToi0gFB9A=
-			</data>
-		</dict>
-		<key>Modules/LAFM.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			cMIoMAMCRD97I/5wbwRjlw29gLSGPGDnHzzxPZT65W4=
+			S4ElRv5IM6lgMPlVvsZKtdw003GRmmDwGlSaSie8l4Y=
 			</data>
 		</dict>
 		<key>Modules/LAFM.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YPKk2H6BGO/OVWnbS7/6qsDmkcguTtrKYXg6noOUpj8=
+			KKLGReRFfHtHUUaKQ6F5+2S0A5FK3gbPkLNDTYutubg=
 			</data>
 		</dict>
 		<key>Modules/LAFM.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hxdSY4QAtOll4QeqaKaGCGxo1KpdCJjUoxOo/RQp25s=
+			S4ElRv5IM6lgMPlVvsZKtdw003GRmmDwGlSaSie8l4Y=
 			</data>
 		</dict>
 		<key>Modules/LAFM.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mIPfrnixmLv2DlKQd1TGrUPW9i4psW/ohnHgyVZ7J2M=
-			</data>
-		</dict>
-		<key>Modules/LAFM.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			YPKk2H6BGO/OVWnbS7/6qsDmkcguTtrKYXg6noOUpj8=
-			</data>
-		</dict>
-		<key>Modules/LAFM.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			hxdSY4QAtOll4QeqaKaGCGxo1KpdCJjUoxOo/RQp25s=
-			</data>
-		</dict>
-		<key>Modules/LAFM.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mIPfrnixmLv2DlKQd1TGrUPW9i4psW/ohnHgyVZ7J2M=
+			mIpvbrPs07NH9tOS0tmCRkfOXPG3s0eP8FwY99gMa60=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w4UZWMqCjcYJn2neT+R5vZSm8SXYTMi1Iq1sDtYQuYc=
+			16K60uIVliY+auA6ZSMTDx5DEm3cP/DS7ByCQgCmMHs=
 			</data>
 		</dict>
 	</dict>

@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/LAFM.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		FOQBS4FCAXxAMRrF79gkV6sdzqQ=
+		vUm0XXS7GDq1uGeOKfJz/Cr0HsQ=
 		</data>
 		<key>Modules/LAFM.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/LAFM.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		FOQBS4FCAXxAMRrF79gkV6sdzqQ=
+		vUm0XXS7GDq1uGeOKfJz/Cr0HsQ=
 		</data>
 		<key>Modules/LAFM.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -92,7 +92,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OXFs/pCrr6QM1hmnLHAUb3iT6ZOp5ooy/0q/1s+MCiU=
+			MoLWO6QlniuWB7mM0IczbdzsgfDQHZXkE0xWccun3ms=
 			</data>
 		</dict>
 		<key>Modules/LAFM.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -127,7 +127,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OXFs/pCrr6QM1hmnLHAUb3iT6ZOp5ooy/0q/1s+MCiU=
+			MoLWO6QlniuWB7mM0IczbdzsgfDQHZXkE0xWccun3ms=
 			</data>
 		</dict>
 		<key>Modules/LAFM.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>

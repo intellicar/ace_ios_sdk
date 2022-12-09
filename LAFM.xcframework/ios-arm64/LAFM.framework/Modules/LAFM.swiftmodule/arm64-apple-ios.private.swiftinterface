@@ -10,6 +10,15 @@ import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
+public class GSMInfo : Swift.Codable {
+  public var protocolVer: LAFM.Short
+  public init(protocolVer: LAFM.Short)
+  public func getSize() -> Swift.Int
+  public func write(outBuffer: inout LAFM.ByteArray, startpos: Swift.Int, maxpos: Swift.Int) -> Swift.Int
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
 public enum Methods : Swift.String {
   case options
   case get
@@ -383,6 +392,13 @@ extension LAFM.JSON : Swift.Codable {
 @_hasMissingDesignatedInitializers public class CAN2_0TXModule {
   @objc deinit
 }
+@_hasMissingDesignatedInitializers public class SysInfo_1 : LAFM.SysInfo {
+  public var ramUsage: Swift.Int?
+  public var flashUsage: Swift.Int?
+  public var cpuUsage: Swift.Int32?
+  public var tempValue: LAFM.Short?
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers open class GPSGNGGAInfo : Swift.Codable {
   @objc deinit
   open func encode(to encoder: Swift.Encoder) throws
@@ -392,6 +408,14 @@ extension LAFM.JSON : Swift.Codable {
   @objc deinit
   open func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class GenericGSMInfo_x : LAFM.GSMInfo {
+  required public init(protocolID: LAFM.Short, payload: LAFM.ByteArray)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class GenericGPSInfo_x : LAFM.GPSInfo {
+  public init(protocolID: LAFM.Short, payload: LAFM.ByteArray)
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers public class ReadData<T> {
   @objc deinit
@@ -426,6 +450,18 @@ public enum State : Swift.String {
     get
   }
 }
+@_hasMissingDesignatedInitializers public class GSMInfo_1 : LAFM.GSMInfo {
+  public var csq: Swift.Int?
+  public var mcc: Swift.Int?
+  public var mnc: Swift.Int?
+  public var lac: Swift.Int?
+  public var cellid: Swift.Int?
+  public var bcch: Swift.Int?
+  public var bsic: Swift.Int?
+  public var rxDbm: LAFM.Short?
+  public init()
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers public class LAFCanInfoV1_7_Snapshot : Swift.Codable {
   public var parameterId: Swift.Int
   public var snapshotInterval: Swift.Int
@@ -443,6 +479,13 @@ public enum State : Swift.String {
 extension Swift.Array where Element == Swift.UInt8 {
   public func bytesToHex(spacing: Swift.String) -> Swift.String
 }
+@_hasMissingDesignatedInitializers public class SysInfo : Swift.Codable {
+  public func getSize() -> Swift.Int
+  public func write(outBuffer: inout LAFM.ByteArray, startpos: Swift.Int, maxpos: Swift.Int) -> Swift.Int
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
 @_hasMissingDesignatedInitializers open class GSMQENG_3 : Swift.Codable {
   public var bcch: Swift.Int?
   public var dbm: Swift.Int?
@@ -450,6 +493,9 @@ extension Swift.Array where Element == Swift.UInt8 {
   @objc deinit
   open func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class GenericSYSInfo_x : LAFM.SysInfo {
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers open class LAFMDevice {
   public static let shared: LAFM.LAFMDevice
@@ -464,6 +510,30 @@ extension Swift.Array where Element == Swift.UInt8 {
   public func output2Enable()
   public func output2Disable()
   public func setToken(token: LAFM.JSON, phonePrivatKey: CryptoKit.Curve25519.KeyAgreement.PrivateKey, scanTimout: Foundation.TimeInterval = 30, connectionTimeout: Foundation.TimeInterval = 30)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class GPSInfo_1 : LAFM.GPSInfo {
+  public var timeToFF: Swift.Int?
+  public var lastValidFix: Swift.Int?
+  public var fixQuality: LAFM.Short?
+  public var lat: LAFM.Long?
+  public var lng: LAFM.Long?
+  public var alt: LAFM.Long?
+  public var heading: Swift.Int?
+  public var direction: LAFM.Short?
+  public var speedKmph: Swift.Int?
+  public var gpsInUse: LAFM.Short?
+  public var gpsInView: LAFM.Short?
+  public var gpsSNRAvg: Swift.Int?
+  public var glonassInUse: LAFM.Short?
+  public var glonassInView: LAFM.Short?
+  public var glonassSNRAvg: Swift.Int?
+  public var pdop: Swift.Int?
+  public var hdop: Swift.Int?
+  public var vdop: Swift.Int?
+  public var undulation: LAFM.Short?
+  public var gpsMileageCounter: LAFM.Long?
+  public init()
   @objc deinit
 }
 @_hasMissingDesignatedInitializers open class GPSGLGSVInfoInner : Swift.Codable {
@@ -483,6 +553,14 @@ public struct BleConfig {
   public var scanTimeout: Swift.Double
   public var connectionTimeout: Swift.Double
   public init(isDebugEnabled: Swift.Bool = false, scanTimeout: Foundation.TimeInterval, connectionTimeout: Foundation.TimeInterval)
+}
+@_hasMissingDesignatedInitializers public class GPSInfo : Swift.Codable {
+  public var protocolVer: LAFM.Short
+  public func getSize() -> Swift.Int
+  public func write(outBuffer: inout LAFM.ByteArray, startpos: Swift.Int, maxpos: Swift.Int) -> Swift.Int
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers open class GPSGLGSAInfo : Swift.Codable {
   @objc deinit
@@ -505,6 +583,11 @@ public typealias ByteArray = [Swift.UInt8]
 public typealias Short = Swift.UInt16
 public typealias Response = [Swift.String : Any]
 public typealias numberOfPermissionCount = Swift.Int
+@_hasMissingDesignatedInitializers public class LAF100StatusInfo_11 : Swift.Codable {
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
 extension LAFM.Methods : Swift.Equatable {}
 extension LAFM.Methods : Swift.Hashable {}
 extension LAFM.Methods : Swift.RawRepresentable {}

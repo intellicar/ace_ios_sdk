@@ -46,6 +46,281 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "GSMInfo",
+        "printedName": "GSMInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "protocolVer",
+            "printedName": "protocolVer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt16",
+                "printedName": "Swift.UInt16",
+                "usr": "s:s6UInt16V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM7GSMInfoC11protocolVers6UInt16Vvp",
+            "mangledName": "$s4LAFM7GSMInfoC11protocolVers6UInt16Vvp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt16",
+                    "printedName": "Swift.UInt16",
+                    "usr": "s:s6UInt16V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM7GSMInfoC11protocolVers6UInt16Vvg",
+                "mangledName": "$s4LAFM7GSMInfoC11protocolVers6UInt16Vvg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt16",
+                    "printedName": "Swift.UInt16",
+                    "usr": "s:s6UInt16V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM7GSMInfoC11protocolVers6UInt16Vvs",
+                "mangledName": "$s4LAFM7GSMInfoC11protocolVers6UInt16Vvs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM7GSMInfoC11protocolVers6UInt16VvM",
+                "mangledName": "$s4LAFM7GSMInfoC11protocolVers6UInt16VvM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(protocolVer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GSMInfo",
+                "printedName": "LAFM.GSMInfo",
+                "usr": "s:4LAFM7GSMInfoC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt16",
+                "printedName": "Swift.UInt16",
+                "usr": "s:s6UInt16V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:4LAFM7GSMInfoC11protocolVerACs6UInt16V_tcfc",
+            "mangledName": "$s4LAFM7GSMInfoC11protocolVerACs6UInt16V_tcfc",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getSize",
+            "printedName": "getSize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4LAFM7GSMInfoC7getSizeSiyF",
+            "mangledName": "$s4LAFM7GSMInfoC7getSizeSiyF",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "write",
+            "printedName": "write(outBuffer:startpos:maxpos:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "paramValueOwnership": "InOut",
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4LAFM7GSMInfoC5write9outBuffer8startpos6maxposSiSays5UInt8VGz_S2itF",
+            "mangledName": "$s4LAFM7GSMInfoC5write9outBuffer8startpos6maxposSiSays5UInt8VGz_S2itF",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GSMInfo",
+                "printedName": "LAFM.GSMInfo",
+                "usr": "s:4LAFM7GSMInfoC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:4LAFM7GSMInfoC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s4LAFM7GSMInfoC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "LAFM",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4LAFM7GSMInfoC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s4LAFM7GSMInfoC6encode2toys7Encoder_p_tKF",
+            "moduleName": "LAFM",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:4LAFM7GSMInfoC",
+        "mangledName": "$s4LAFM7GSMInfoC",
+        "moduleName": "LAFM",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LAFM",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "Methods",
         "printedName": "Methods",
         "children": [
@@ -8289,6 +8564,491 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "SysInfo_1",
+        "printedName": "SysInfo_1",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ramUsage",
+            "printedName": "ramUsage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM9SysInfo_1C8ramUsageSiSgvp",
+            "mangledName": "$s4LAFM9SysInfo_1C8ramUsageSiSgvp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9SysInfo_1C8ramUsageSiSgvg",
+                "mangledName": "$s4LAFM9SysInfo_1C8ramUsageSiSgvg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9SysInfo_1C8ramUsageSiSgvs",
+                "mangledName": "$s4LAFM9SysInfo_1C8ramUsageSiSgvs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9SysInfo_1C8ramUsageSiSgvM",
+                "mangledName": "$s4LAFM9SysInfo_1C8ramUsageSiSgvM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "flashUsage",
+            "printedName": "flashUsage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM9SysInfo_1C10flashUsageSiSgvp",
+            "mangledName": "$s4LAFM9SysInfo_1C10flashUsageSiSgvp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9SysInfo_1C10flashUsageSiSgvg",
+                "mangledName": "$s4LAFM9SysInfo_1C10flashUsageSiSgvg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9SysInfo_1C10flashUsageSiSgvs",
+                "mangledName": "$s4LAFM9SysInfo_1C10flashUsageSiSgvs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9SysInfo_1C10flashUsageSiSgvM",
+                "mangledName": "$s4LAFM9SysInfo_1C10flashUsageSiSgvM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cpuUsage",
+            "printedName": "cpuUsage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int32?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM9SysInfo_1C8cpuUsages5Int32VSgvp",
+            "mangledName": "$s4LAFM9SysInfo_1C8cpuUsages5Int32VSgvp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int32?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9SysInfo_1C8cpuUsages5Int32VSgvg",
+                "mangledName": "$s4LAFM9SysInfo_1C8cpuUsages5Int32VSgvg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int32?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9SysInfo_1C8cpuUsages5Int32VSgvs",
+                "mangledName": "$s4LAFM9SysInfo_1C8cpuUsages5Int32VSgvs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9SysInfo_1C8cpuUsages5Int32VSgvM",
+                "mangledName": "$s4LAFM9SysInfo_1C8cpuUsages5Int32VSgvM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tempValue",
+            "printedName": "tempValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UInt16?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt16",
+                    "printedName": "Swift.UInt16",
+                    "usr": "s:s6UInt16V"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM9SysInfo_1C9tempValues6UInt16VSgvp",
+            "mangledName": "$s4LAFM9SysInfo_1C9tempValues6UInt16VSgvp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UInt16?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt16",
+                        "printedName": "Swift.UInt16",
+                        "usr": "s:s6UInt16V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9SysInfo_1C9tempValues6UInt16VSgvg",
+                "mangledName": "$s4LAFM9SysInfo_1C9tempValues6UInt16VSgvg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UInt16?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt16",
+                        "printedName": "Swift.UInt16",
+                        "usr": "s:s6UInt16V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9SysInfo_1C9tempValues6UInt16VSgvs",
+                "mangledName": "$s4LAFM9SysInfo_1C9tempValues6UInt16VSgvs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9SysInfo_1C9tempValues6UInt16VSgvM",
+                "mangledName": "$s4LAFM9SysInfo_1C9tempValues6UInt16VSgvM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:4LAFM9SysInfo_1C",
+        "mangledName": "$s4LAFM9SysInfo_1C",
+        "moduleName": "LAFM",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:4LAFM7SysInfoC",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "LAFM.SysInfo"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LAFM",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "GPSGNGGAInfo",
         "printedName": "GPSGNGGAInfo",
         "children": [
@@ -8542,6 +9302,122 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "GenericGSMInfo_x",
+        "printedName": "GenericGSMInfo_x",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(protocolID:payload:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericGSMInfo_x",
+                "printedName": "LAFM.GenericGSMInfo_x",
+                "usr": "s:4LAFM16GenericGSMInfo_xC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt16",
+                "printedName": "Swift.UInt16",
+                "usr": "s:s6UInt16V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:4LAFM16GenericGSMInfo_xC10protocolID7payloadACs6UInt16V_Says5UInt8VGtcfc",
+            "mangledName": "$s4LAFM16GenericGSMInfo_xC10protocolID7payloadACs6UInt16V_Says5UInt8VGtcfc",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "Required",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(protocolVer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericGSMInfo_x",
+                "printedName": "LAFM.GenericGSMInfo_x",
+                "usr": "s:4LAFM16GenericGSMInfo_xC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt16",
+                "printedName": "Swift.UInt16",
+                "usr": "s:s6UInt16V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:4LAFM16GenericGSMInfo_xC11protocolVerACs6UInt16V_tcfc",
+            "mangledName": "$s4LAFM16GenericGSMInfo_xC11protocolVerACs6UInt16V_tcfc",
+            "moduleName": "LAFM",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:4LAFM16GenericGSMInfo_xC",
+        "mangledName": "$s4LAFM16GenericGSMInfo_xC",
+        "moduleName": "LAFM",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:4LAFM7GSMInfoC",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "LAFM.GSMInfo"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LAFM",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -8646,6 +9522,92 @@
         "moduleName": "LAFM",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LAFM",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GenericGPSInfo_x",
+        "printedName": "GenericGPSInfo_x",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(protocolID:payload:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericGPSInfo_x",
+                "printedName": "LAFM.GenericGPSInfo_x",
+                "usr": "s:4LAFM16GenericGPSInfo_xC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt16",
+                "printedName": "Swift.UInt16",
+                "usr": "s:s6UInt16V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:4LAFM16GenericGPSInfo_xC10protocolID7payloadACs6UInt16V_Says5UInt8VGtcfc",
+            "mangledName": "$s4LAFM16GenericGPSInfo_xC10protocolID7payloadACs6UInt16V_Says5UInt8VGtcfc",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:4LAFM16GenericGPSInfo_xC",
+        "mangledName": "$s4LAFM16GenericGPSInfo_xC",
+        "moduleName": "LAFM",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:4LAFM7GPSInfoC",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "LAFM.GPSInfo"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
         ]
       },
       {
@@ -10134,6 +11096,981 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "GSMInfo_1",
+        "printedName": "GSMInfo_1",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "csq",
+            "printedName": "csq",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM9GSMInfo_1C3csqSiSgvp",
+            "mangledName": "$s4LAFM9GSMInfo_1C3csqSiSgvp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GSMInfo_1C3csqSiSgvg",
+                "mangledName": "$s4LAFM9GSMInfo_1C3csqSiSgvg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GSMInfo_1C3csqSiSgvs",
+                "mangledName": "$s4LAFM9GSMInfo_1C3csqSiSgvs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GSMInfo_1C3csqSiSgvM",
+                "mangledName": "$s4LAFM9GSMInfo_1C3csqSiSgvM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mcc",
+            "printedName": "mcc",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM9GSMInfo_1C3mccSiSgvp",
+            "mangledName": "$s4LAFM9GSMInfo_1C3mccSiSgvp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GSMInfo_1C3mccSiSgvg",
+                "mangledName": "$s4LAFM9GSMInfo_1C3mccSiSgvg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GSMInfo_1C3mccSiSgvs",
+                "mangledName": "$s4LAFM9GSMInfo_1C3mccSiSgvs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GSMInfo_1C3mccSiSgvM",
+                "mangledName": "$s4LAFM9GSMInfo_1C3mccSiSgvM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mnc",
+            "printedName": "mnc",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM9GSMInfo_1C3mncSiSgvp",
+            "mangledName": "$s4LAFM9GSMInfo_1C3mncSiSgvp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GSMInfo_1C3mncSiSgvg",
+                "mangledName": "$s4LAFM9GSMInfo_1C3mncSiSgvg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GSMInfo_1C3mncSiSgvs",
+                "mangledName": "$s4LAFM9GSMInfo_1C3mncSiSgvs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GSMInfo_1C3mncSiSgvM",
+                "mangledName": "$s4LAFM9GSMInfo_1C3mncSiSgvM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lac",
+            "printedName": "lac",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM9GSMInfo_1C3lacSiSgvp",
+            "mangledName": "$s4LAFM9GSMInfo_1C3lacSiSgvp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GSMInfo_1C3lacSiSgvg",
+                "mangledName": "$s4LAFM9GSMInfo_1C3lacSiSgvg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GSMInfo_1C3lacSiSgvs",
+                "mangledName": "$s4LAFM9GSMInfo_1C3lacSiSgvs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GSMInfo_1C3lacSiSgvM",
+                "mangledName": "$s4LAFM9GSMInfo_1C3lacSiSgvM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cellid",
+            "printedName": "cellid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM9GSMInfo_1C6cellidSiSgvp",
+            "mangledName": "$s4LAFM9GSMInfo_1C6cellidSiSgvp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GSMInfo_1C6cellidSiSgvg",
+                "mangledName": "$s4LAFM9GSMInfo_1C6cellidSiSgvg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GSMInfo_1C6cellidSiSgvs",
+                "mangledName": "$s4LAFM9GSMInfo_1C6cellidSiSgvs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GSMInfo_1C6cellidSiSgvM",
+                "mangledName": "$s4LAFM9GSMInfo_1C6cellidSiSgvM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bcch",
+            "printedName": "bcch",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM9GSMInfo_1C4bcchSiSgvp",
+            "mangledName": "$s4LAFM9GSMInfo_1C4bcchSiSgvp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GSMInfo_1C4bcchSiSgvg",
+                "mangledName": "$s4LAFM9GSMInfo_1C4bcchSiSgvg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GSMInfo_1C4bcchSiSgvs",
+                "mangledName": "$s4LAFM9GSMInfo_1C4bcchSiSgvs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GSMInfo_1C4bcchSiSgvM",
+                "mangledName": "$s4LAFM9GSMInfo_1C4bcchSiSgvM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bsic",
+            "printedName": "bsic",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM9GSMInfo_1C4bsicSiSgvp",
+            "mangledName": "$s4LAFM9GSMInfo_1C4bsicSiSgvp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GSMInfo_1C4bsicSiSgvg",
+                "mangledName": "$s4LAFM9GSMInfo_1C4bsicSiSgvg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GSMInfo_1C4bsicSiSgvs",
+                "mangledName": "$s4LAFM9GSMInfo_1C4bsicSiSgvs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GSMInfo_1C4bsicSiSgvM",
+                "mangledName": "$s4LAFM9GSMInfo_1C4bsicSiSgvM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rxDbm",
+            "printedName": "rxDbm",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UInt16?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt16",
+                    "printedName": "Swift.UInt16",
+                    "usr": "s:s6UInt16V"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM9GSMInfo_1C5rxDbms6UInt16VSgvp",
+            "mangledName": "$s4LAFM9GSMInfo_1C5rxDbms6UInt16VSgvp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UInt16?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt16",
+                        "printedName": "Swift.UInt16",
+                        "usr": "s:s6UInt16V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GSMInfo_1C5rxDbms6UInt16VSgvg",
+                "mangledName": "$s4LAFM9GSMInfo_1C5rxDbms6UInt16VSgvg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UInt16?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt16",
+                        "printedName": "Swift.UInt16",
+                        "usr": "s:s6UInt16V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GSMInfo_1C5rxDbms6UInt16VSgvs",
+                "mangledName": "$s4LAFM9GSMInfo_1C5rxDbms6UInt16VSgvs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GSMInfo_1C5rxDbms6UInt16VSgvM",
+                "mangledName": "$s4LAFM9GSMInfo_1C5rxDbms6UInt16VSgvM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GSMInfo_1",
+                "printedName": "LAFM.GSMInfo_1",
+                "usr": "s:4LAFM9GSMInfo_1C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:4LAFM9GSMInfo_1CACycfc",
+            "mangledName": "$s4LAFM9GSMInfo_1CACycfc",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(protocolVer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GSMInfo_1",
+                "printedName": "LAFM.GSMInfo_1",
+                "usr": "s:4LAFM9GSMInfo_1C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt16",
+                "printedName": "Swift.UInt16",
+                "usr": "s:s6UInt16V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:4LAFM9GSMInfo_1C11protocolVerACs6UInt16V_tcfc",
+            "mangledName": "$s4LAFM9GSMInfo_1C11protocolVerACs6UInt16V_tcfc",
+            "moduleName": "LAFM",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:4LAFM9GSMInfo_1C",
+        "mangledName": "$s4LAFM9GSMInfo_1C",
+        "moduleName": "LAFM",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:4LAFM7GSMInfoC",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "LAFM.GSMInfo"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LAFM",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "CryptoKit",
         "printedName": "CryptoKit",
@@ -11023,6 +12960,171 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "SysInfo",
+        "printedName": "SysInfo",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getSize",
+            "printedName": "getSize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4LAFM7SysInfoC7getSizeSiyF",
+            "mangledName": "$s4LAFM7SysInfoC7getSizeSiyF",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "write",
+            "printedName": "write(outBuffer:startpos:maxpos:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "paramValueOwnership": "InOut",
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4LAFM7SysInfoC5write9outBuffer8startpos6maxposSiSays5UInt8VGz_S2itF",
+            "mangledName": "$s4LAFM7SysInfoC5write9outBuffer8startpos6maxposSiSays5UInt8VGz_S2itF",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SysInfo",
+                "printedName": "LAFM.SysInfo",
+                "usr": "s:4LAFM7SysInfoC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:4LAFM7SysInfoC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s4LAFM7SysInfoC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "LAFM",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4LAFM7SysInfoC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s4LAFM7SysInfoC6encode2toys7Encoder_p_tKF",
+            "moduleName": "LAFM",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:4LAFM7SysInfoC",
+        "mangledName": "$s4LAFM7SysInfoC",
+        "moduleName": "LAFM",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LAFM",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -11462,6 +13564,49 @@
           "AccessControl"
         ],
         "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LAFM",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GenericSYSInfo_x",
+        "printedName": "GenericSYSInfo_x",
+        "declKind": "Class",
+        "usr": "s:4LAFM16GenericSYSInfo_xC",
+        "mangledName": "$s4LAFM16GenericSYSInfo_xC",
+        "moduleName": "LAFM",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:4LAFM7SysInfoC",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "LAFM.SysInfo"
+        ],
         "conformances": [
           {
             "kind": "Conformance",
@@ -12001,6 +14146,2272 @@
         "moduleName": "LAFM",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LAFM",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GPSInfo_1",
+        "printedName": "GPSInfo_1",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "timeToFF",
+            "printedName": "timeToFF",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM9GPSInfo_1C8timeToFFSiSgvp",
+            "mangledName": "$s4LAFM9GPSInfo_1C8timeToFFSiSgvp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C8timeToFFSiSgvg",
+                "mangledName": "$s4LAFM9GPSInfo_1C8timeToFFSiSgvg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C8timeToFFSiSgvs",
+                "mangledName": "$s4LAFM9GPSInfo_1C8timeToFFSiSgvs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C8timeToFFSiSgvM",
+                "mangledName": "$s4LAFM9GPSInfo_1C8timeToFFSiSgvM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lastValidFix",
+            "printedName": "lastValidFix",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM9GPSInfo_1C12lastValidFixSiSgvp",
+            "mangledName": "$s4LAFM9GPSInfo_1C12lastValidFixSiSgvp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C12lastValidFixSiSgvg",
+                "mangledName": "$s4LAFM9GPSInfo_1C12lastValidFixSiSgvg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C12lastValidFixSiSgvs",
+                "mangledName": "$s4LAFM9GPSInfo_1C12lastValidFixSiSgvs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C12lastValidFixSiSgvM",
+                "mangledName": "$s4LAFM9GPSInfo_1C12lastValidFixSiSgvM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fixQuality",
+            "printedName": "fixQuality",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UInt16?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt16",
+                    "printedName": "Swift.UInt16",
+                    "usr": "s:s6UInt16V"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM9GPSInfo_1C10fixQualitys6UInt16VSgvp",
+            "mangledName": "$s4LAFM9GPSInfo_1C10fixQualitys6UInt16VSgvp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UInt16?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt16",
+                        "printedName": "Swift.UInt16",
+                        "usr": "s:s6UInt16V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C10fixQualitys6UInt16VSgvg",
+                "mangledName": "$s4LAFM9GPSInfo_1C10fixQualitys6UInt16VSgvg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UInt16?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt16",
+                        "printedName": "Swift.UInt16",
+                        "usr": "s:s6UInt16V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C10fixQualitys6UInt16VSgvs",
+                "mangledName": "$s4LAFM9GPSInfo_1C10fixQualitys6UInt16VSgvs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C10fixQualitys6UInt16VSgvM",
+                "mangledName": "$s4LAFM9GPSInfo_1C10fixQualitys6UInt16VSgvM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lat",
+            "printedName": "lat",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UInt64?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt64",
+                    "printedName": "Swift.UInt64",
+                    "usr": "s:s6UInt64V"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM9GPSInfo_1C3lats6UInt64VSgvp",
+            "mangledName": "$s4LAFM9GPSInfo_1C3lats6UInt64VSgvp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UInt64?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt64",
+                        "printedName": "Swift.UInt64",
+                        "usr": "s:s6UInt64V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C3lats6UInt64VSgvg",
+                "mangledName": "$s4LAFM9GPSInfo_1C3lats6UInt64VSgvg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UInt64?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt64",
+                        "printedName": "Swift.UInt64",
+                        "usr": "s:s6UInt64V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C3lats6UInt64VSgvs",
+                "mangledName": "$s4LAFM9GPSInfo_1C3lats6UInt64VSgvs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C3lats6UInt64VSgvM",
+                "mangledName": "$s4LAFM9GPSInfo_1C3lats6UInt64VSgvM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lng",
+            "printedName": "lng",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UInt64?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt64",
+                    "printedName": "Swift.UInt64",
+                    "usr": "s:s6UInt64V"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM9GPSInfo_1C3lngs6UInt64VSgvp",
+            "mangledName": "$s4LAFM9GPSInfo_1C3lngs6UInt64VSgvp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UInt64?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt64",
+                        "printedName": "Swift.UInt64",
+                        "usr": "s:s6UInt64V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C3lngs6UInt64VSgvg",
+                "mangledName": "$s4LAFM9GPSInfo_1C3lngs6UInt64VSgvg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UInt64?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt64",
+                        "printedName": "Swift.UInt64",
+                        "usr": "s:s6UInt64V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C3lngs6UInt64VSgvs",
+                "mangledName": "$s4LAFM9GPSInfo_1C3lngs6UInt64VSgvs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C3lngs6UInt64VSgvM",
+                "mangledName": "$s4LAFM9GPSInfo_1C3lngs6UInt64VSgvM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "alt",
+            "printedName": "alt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UInt64?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt64",
+                    "printedName": "Swift.UInt64",
+                    "usr": "s:s6UInt64V"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM9GPSInfo_1C3alts6UInt64VSgvp",
+            "mangledName": "$s4LAFM9GPSInfo_1C3alts6UInt64VSgvp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UInt64?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt64",
+                        "printedName": "Swift.UInt64",
+                        "usr": "s:s6UInt64V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C3alts6UInt64VSgvg",
+                "mangledName": "$s4LAFM9GPSInfo_1C3alts6UInt64VSgvg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UInt64?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt64",
+                        "printedName": "Swift.UInt64",
+                        "usr": "s:s6UInt64V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C3alts6UInt64VSgvs",
+                "mangledName": "$s4LAFM9GPSInfo_1C3alts6UInt64VSgvs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C3alts6UInt64VSgvM",
+                "mangledName": "$s4LAFM9GPSInfo_1C3alts6UInt64VSgvM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "heading",
+            "printedName": "heading",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM9GPSInfo_1C7headingSiSgvp",
+            "mangledName": "$s4LAFM9GPSInfo_1C7headingSiSgvp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C7headingSiSgvg",
+                "mangledName": "$s4LAFM9GPSInfo_1C7headingSiSgvg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C7headingSiSgvs",
+                "mangledName": "$s4LAFM9GPSInfo_1C7headingSiSgvs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C7headingSiSgvM",
+                "mangledName": "$s4LAFM9GPSInfo_1C7headingSiSgvM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "direction",
+            "printedName": "direction",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UInt16?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt16",
+                    "printedName": "Swift.UInt16",
+                    "usr": "s:s6UInt16V"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM9GPSInfo_1C9directions6UInt16VSgvp",
+            "mangledName": "$s4LAFM9GPSInfo_1C9directions6UInt16VSgvp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UInt16?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt16",
+                        "printedName": "Swift.UInt16",
+                        "usr": "s:s6UInt16V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C9directions6UInt16VSgvg",
+                "mangledName": "$s4LAFM9GPSInfo_1C9directions6UInt16VSgvg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UInt16?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt16",
+                        "printedName": "Swift.UInt16",
+                        "usr": "s:s6UInt16V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C9directions6UInt16VSgvs",
+                "mangledName": "$s4LAFM9GPSInfo_1C9directions6UInt16VSgvs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C9directions6UInt16VSgvM",
+                "mangledName": "$s4LAFM9GPSInfo_1C9directions6UInt16VSgvM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "speedKmph",
+            "printedName": "speedKmph",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM9GPSInfo_1C9speedKmphSiSgvp",
+            "mangledName": "$s4LAFM9GPSInfo_1C9speedKmphSiSgvp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C9speedKmphSiSgvg",
+                "mangledName": "$s4LAFM9GPSInfo_1C9speedKmphSiSgvg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C9speedKmphSiSgvs",
+                "mangledName": "$s4LAFM9GPSInfo_1C9speedKmphSiSgvs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C9speedKmphSiSgvM",
+                "mangledName": "$s4LAFM9GPSInfo_1C9speedKmphSiSgvM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gpsInUse",
+            "printedName": "gpsInUse",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UInt16?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt16",
+                    "printedName": "Swift.UInt16",
+                    "usr": "s:s6UInt16V"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM9GPSInfo_1C8gpsInUses6UInt16VSgvp",
+            "mangledName": "$s4LAFM9GPSInfo_1C8gpsInUses6UInt16VSgvp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UInt16?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt16",
+                        "printedName": "Swift.UInt16",
+                        "usr": "s:s6UInt16V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C8gpsInUses6UInt16VSgvg",
+                "mangledName": "$s4LAFM9GPSInfo_1C8gpsInUses6UInt16VSgvg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UInt16?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt16",
+                        "printedName": "Swift.UInt16",
+                        "usr": "s:s6UInt16V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C8gpsInUses6UInt16VSgvs",
+                "mangledName": "$s4LAFM9GPSInfo_1C8gpsInUses6UInt16VSgvs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C8gpsInUses6UInt16VSgvM",
+                "mangledName": "$s4LAFM9GPSInfo_1C8gpsInUses6UInt16VSgvM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gpsInView",
+            "printedName": "gpsInView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UInt16?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt16",
+                    "printedName": "Swift.UInt16",
+                    "usr": "s:s6UInt16V"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM9GPSInfo_1C9gpsInViews6UInt16VSgvp",
+            "mangledName": "$s4LAFM9GPSInfo_1C9gpsInViews6UInt16VSgvp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UInt16?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt16",
+                        "printedName": "Swift.UInt16",
+                        "usr": "s:s6UInt16V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C9gpsInViews6UInt16VSgvg",
+                "mangledName": "$s4LAFM9GPSInfo_1C9gpsInViews6UInt16VSgvg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UInt16?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt16",
+                        "printedName": "Swift.UInt16",
+                        "usr": "s:s6UInt16V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C9gpsInViews6UInt16VSgvs",
+                "mangledName": "$s4LAFM9GPSInfo_1C9gpsInViews6UInt16VSgvs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C9gpsInViews6UInt16VSgvM",
+                "mangledName": "$s4LAFM9GPSInfo_1C9gpsInViews6UInt16VSgvM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gpsSNRAvg",
+            "printedName": "gpsSNRAvg",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM9GPSInfo_1C9gpsSNRAvgSiSgvp",
+            "mangledName": "$s4LAFM9GPSInfo_1C9gpsSNRAvgSiSgvp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C9gpsSNRAvgSiSgvg",
+                "mangledName": "$s4LAFM9GPSInfo_1C9gpsSNRAvgSiSgvg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C9gpsSNRAvgSiSgvs",
+                "mangledName": "$s4LAFM9GPSInfo_1C9gpsSNRAvgSiSgvs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C9gpsSNRAvgSiSgvM",
+                "mangledName": "$s4LAFM9GPSInfo_1C9gpsSNRAvgSiSgvM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "glonassInUse",
+            "printedName": "glonassInUse",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UInt16?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt16",
+                    "printedName": "Swift.UInt16",
+                    "usr": "s:s6UInt16V"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM9GPSInfo_1C12glonassInUses6UInt16VSgvp",
+            "mangledName": "$s4LAFM9GPSInfo_1C12glonassInUses6UInt16VSgvp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UInt16?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt16",
+                        "printedName": "Swift.UInt16",
+                        "usr": "s:s6UInt16V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C12glonassInUses6UInt16VSgvg",
+                "mangledName": "$s4LAFM9GPSInfo_1C12glonassInUses6UInt16VSgvg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UInt16?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt16",
+                        "printedName": "Swift.UInt16",
+                        "usr": "s:s6UInt16V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C12glonassInUses6UInt16VSgvs",
+                "mangledName": "$s4LAFM9GPSInfo_1C12glonassInUses6UInt16VSgvs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C12glonassInUses6UInt16VSgvM",
+                "mangledName": "$s4LAFM9GPSInfo_1C12glonassInUses6UInt16VSgvM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "glonassInView",
+            "printedName": "glonassInView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UInt16?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt16",
+                    "printedName": "Swift.UInt16",
+                    "usr": "s:s6UInt16V"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM9GPSInfo_1C13glonassInViews6UInt16VSgvp",
+            "mangledName": "$s4LAFM9GPSInfo_1C13glonassInViews6UInt16VSgvp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UInt16?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt16",
+                        "printedName": "Swift.UInt16",
+                        "usr": "s:s6UInt16V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C13glonassInViews6UInt16VSgvg",
+                "mangledName": "$s4LAFM9GPSInfo_1C13glonassInViews6UInt16VSgvg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UInt16?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt16",
+                        "printedName": "Swift.UInt16",
+                        "usr": "s:s6UInt16V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C13glonassInViews6UInt16VSgvs",
+                "mangledName": "$s4LAFM9GPSInfo_1C13glonassInViews6UInt16VSgvs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C13glonassInViews6UInt16VSgvM",
+                "mangledName": "$s4LAFM9GPSInfo_1C13glonassInViews6UInt16VSgvM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "glonassSNRAvg",
+            "printedName": "glonassSNRAvg",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM9GPSInfo_1C13glonassSNRAvgSiSgvp",
+            "mangledName": "$s4LAFM9GPSInfo_1C13glonassSNRAvgSiSgvp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C13glonassSNRAvgSiSgvg",
+                "mangledName": "$s4LAFM9GPSInfo_1C13glonassSNRAvgSiSgvg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C13glonassSNRAvgSiSgvs",
+                "mangledName": "$s4LAFM9GPSInfo_1C13glonassSNRAvgSiSgvs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C13glonassSNRAvgSiSgvM",
+                "mangledName": "$s4LAFM9GPSInfo_1C13glonassSNRAvgSiSgvM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pdop",
+            "printedName": "pdop",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM9GPSInfo_1C4pdopSiSgvp",
+            "mangledName": "$s4LAFM9GPSInfo_1C4pdopSiSgvp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C4pdopSiSgvg",
+                "mangledName": "$s4LAFM9GPSInfo_1C4pdopSiSgvg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C4pdopSiSgvs",
+                "mangledName": "$s4LAFM9GPSInfo_1C4pdopSiSgvs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C4pdopSiSgvM",
+                "mangledName": "$s4LAFM9GPSInfo_1C4pdopSiSgvM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hdop",
+            "printedName": "hdop",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM9GPSInfo_1C4hdopSiSgvp",
+            "mangledName": "$s4LAFM9GPSInfo_1C4hdopSiSgvp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C4hdopSiSgvg",
+                "mangledName": "$s4LAFM9GPSInfo_1C4hdopSiSgvg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C4hdopSiSgvs",
+                "mangledName": "$s4LAFM9GPSInfo_1C4hdopSiSgvs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C4hdopSiSgvM",
+                "mangledName": "$s4LAFM9GPSInfo_1C4hdopSiSgvM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "vdop",
+            "printedName": "vdop",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM9GPSInfo_1C4vdopSiSgvp",
+            "mangledName": "$s4LAFM9GPSInfo_1C4vdopSiSgvp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C4vdopSiSgvg",
+                "mangledName": "$s4LAFM9GPSInfo_1C4vdopSiSgvg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C4vdopSiSgvs",
+                "mangledName": "$s4LAFM9GPSInfo_1C4vdopSiSgvs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C4vdopSiSgvM",
+                "mangledName": "$s4LAFM9GPSInfo_1C4vdopSiSgvM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "undulation",
+            "printedName": "undulation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UInt16?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt16",
+                    "printedName": "Swift.UInt16",
+                    "usr": "s:s6UInt16V"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM9GPSInfo_1C10undulations6UInt16VSgvp",
+            "mangledName": "$s4LAFM9GPSInfo_1C10undulations6UInt16VSgvp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UInt16?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt16",
+                        "printedName": "Swift.UInt16",
+                        "usr": "s:s6UInt16V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C10undulations6UInt16VSgvg",
+                "mangledName": "$s4LAFM9GPSInfo_1C10undulations6UInt16VSgvg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UInt16?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt16",
+                        "printedName": "Swift.UInt16",
+                        "usr": "s:s6UInt16V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C10undulations6UInt16VSgvs",
+                "mangledName": "$s4LAFM9GPSInfo_1C10undulations6UInt16VSgvs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C10undulations6UInt16VSgvM",
+                "mangledName": "$s4LAFM9GPSInfo_1C10undulations6UInt16VSgvM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gpsMileageCounter",
+            "printedName": "gpsMileageCounter",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UInt64?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt64",
+                    "printedName": "Swift.UInt64",
+                    "usr": "s:s6UInt64V"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM9GPSInfo_1C17gpsMileageCounters6UInt64VSgvp",
+            "mangledName": "$s4LAFM9GPSInfo_1C17gpsMileageCounters6UInt64VSgvp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UInt64?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt64",
+                        "printedName": "Swift.UInt64",
+                        "usr": "s:s6UInt64V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C17gpsMileageCounters6UInt64VSgvg",
+                "mangledName": "$s4LAFM9GPSInfo_1C17gpsMileageCounters6UInt64VSgvg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UInt64?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt64",
+                        "printedName": "Swift.UInt64",
+                        "usr": "s:s6UInt64V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C17gpsMileageCounters6UInt64VSgvs",
+                "mangledName": "$s4LAFM9GPSInfo_1C17gpsMileageCounters6UInt64VSgvs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9GPSInfo_1C17gpsMileageCounters6UInt64VSgvM",
+                "mangledName": "$s4LAFM9GPSInfo_1C17gpsMileageCounters6UInt64VSgvM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GPSInfo_1",
+                "printedName": "LAFM.GPSInfo_1",
+                "usr": "s:4LAFM9GPSInfo_1C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:4LAFM9GPSInfo_1CACycfc",
+            "mangledName": "$s4LAFM9GPSInfo_1CACycfc",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:4LAFM9GPSInfo_1C",
+        "mangledName": "$s4LAFM9GPSInfo_1C",
+        "moduleName": "LAFM",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:4LAFM7GPSInfoC",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "LAFM.GPSInfo"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
         ]
       },
       {
@@ -12801,6 +17212,255 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "GPSInfo",
+        "printedName": "GPSInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "protocolVer",
+            "printedName": "protocolVer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt16",
+                "printedName": "Swift.UInt16",
+                "usr": "s:s6UInt16V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM7GPSInfoC11protocolVers6UInt16Vvp",
+            "mangledName": "$s4LAFM7GPSInfoC11protocolVers6UInt16Vvp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt16",
+                    "printedName": "Swift.UInt16",
+                    "usr": "s:s6UInt16V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM7GPSInfoC11protocolVers6UInt16Vvg",
+                "mangledName": "$s4LAFM7GPSInfoC11protocolVers6UInt16Vvg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt16",
+                    "printedName": "Swift.UInt16",
+                    "usr": "s:s6UInt16V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM7GPSInfoC11protocolVers6UInt16Vvs",
+                "mangledName": "$s4LAFM7GPSInfoC11protocolVers6UInt16Vvs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM7GPSInfoC11protocolVers6UInt16VvM",
+                "mangledName": "$s4LAFM7GPSInfoC11protocolVers6UInt16VvM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "getSize",
+            "printedName": "getSize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4LAFM7GPSInfoC7getSizeSiyF",
+            "mangledName": "$s4LAFM7GPSInfoC7getSizeSiyF",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "write",
+            "printedName": "write(outBuffer:startpos:maxpos:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "paramValueOwnership": "InOut",
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4LAFM7GPSInfoC5write9outBuffer8startpos6maxposSiSays5UInt8VGz_S2itF",
+            "mangledName": "$s4LAFM7GPSInfoC5write9outBuffer8startpos6maxposSiSays5UInt8VGz_S2itF",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GPSInfo",
+                "printedName": "LAFM.GPSInfo",
+                "usr": "s:4LAFM7GPSInfoC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:4LAFM7GPSInfoC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s4LAFM7GPSInfoC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "LAFM",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4LAFM7GPSInfoC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s4LAFM7GPSInfoC6encode2toys7Encoder_p_tKF",
+            "moduleName": "LAFM",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:4LAFM7GPSInfoC",
+        "mangledName": "$s4LAFM7GPSInfoC",
+        "moduleName": "LAFM",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LAFM",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -13257,6 +17917,101 @@
         "moduleName": "LAFM",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LAFM",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LAF100StatusInfo_11",
+        "printedName": "LAF100StatusInfo_11",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LAF100StatusInfo_11",
+                "printedName": "LAFM.LAF100StatusInfo_11",
+                "usr": "s:4LAFM19LAF100StatusInfo_11C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:4LAFM19LAF100StatusInfo_11C4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s4LAFM19LAF100StatusInfo_11C4fromACs7Decoder_p_tKcfc",
+            "moduleName": "LAFM",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4LAFM19LAF100StatusInfo_11C6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s4LAFM19LAF100StatusInfo_11C6encode2toys7Encoder_p_tKF",
+            "moduleName": "LAFM",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:4LAFM19LAF100StatusInfo_11C",
+        "mangledName": "$s4LAFM19LAF100StatusInfo_11C",
+        "moduleName": "LAFM",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
         ]
       },
       {
@@ -15671,16 +20426,16 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/LAF100DeviceIO_5.swift",
+      "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gsm\/LAF100DeviceIO_5.swift",
       "kind": "Array",
-      "offset": 230,
+      "offset": 335,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/LAF100DeviceIO_5.swift",
+      "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gsm\/LAF100DeviceIO_5.swift",
       "kind": "Array",
-      "offset": 265,
+      "offset": 374,
       "length": 2,
       "value": "[]"
     },
@@ -15734,6 +20489,13 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/deviceInfo\/SysInfo\/SysInto_1.swift",
+      "kind": "StringLiteral",
+      "offset": 107,
+      "length": 9,
+      "value": "\"LAFM.SysInfo_1\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Beacon\/Layer5Beacon\/Beacon\/Layer5Beacon.swift",
       "kind": "Array",
       "offset": 504,
@@ -15774,6 +20536,13 @@
       "offset": 613,
       "length": 1,
       "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/GSMInfo\/GenericGSMInfo_x.swift",
+      "kind": "StringLiteral",
+      "offset": 115,
+      "length": 16,
+      "value": "\"LAFM.GenericGSMInfo_x\""
     },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Lib\/LogManager.swift",
@@ -15886,6 +20655,13 @@
       "offset": 166,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/deviceInfo\/GPSInfo\/GenericGPSInfo_x.swift",
+      "kind": "StringLiteral",
+      "offset": 114,
+      "length": 16,
+      "value": "\"LAFM.GenericGPSInfo_x\""
     },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gps\/GPSGPGSAInfo.swift",
@@ -16056,6 +20832,13 @@
       "value": "\"unAuthorized\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/GSMInfo\/GSMInfo_1.swift",
+      "kind": "StringLiteral",
+      "offset": 108,
+      "length": 9,
+      "value": "\"LAFM.GSMInfo_1\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_101\/token\/TokenType_2.swift",
       "kind": "Array",
       "offset": 344,
@@ -16140,6 +20923,13 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/deviceInfo\/SysInfo\/GenericSYSInfo_x.swift",
+      "kind": "StringLiteral",
+      "offset": 114,
+      "length": 16,
+      "value": "\"LAFM.GenericSYSInfo_x\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_101\/LAF101ChunkTransferOut_3.swift",
       "kind": "Array",
       "offset": 179,
@@ -16170,58 +20960,65 @@
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/LAFMDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 879,
+      "offset": 883,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/LAFMDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 1066,
+      "offset": 1070,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/LAFMDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 1099,
+      "offset": 1103,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/LAFMDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 12135,
+      "offset": 12280,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/LAFMDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 12178,
+      "offset": 12323,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/LAFMDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 27193,
+      "offset": 27384,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/LAFMDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 27198,
+      "offset": 27389,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/LAFMDevice.swift",
       "kind": "Array",
-      "offset": 27268,
+      "offset": 27459,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/deviceInfo\/GPSInfo\/GPSInfo_1.swift",
+      "kind": "StringLiteral",
+      "offset": 108,
+      "length": 9,
+      "value": "\"LAFM.GPSInfo_1\""
     },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_102\/LAF102Chacha20Poly1305Cipher_2.swift",
@@ -17206,7 +22003,7 @@
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/LAF100DeviceInfo_6.swift",
       "kind": "Dictionary",
-      "offset": 190,
+      "offset": 254,
       "length": 3,
       "value": "[]"
     }

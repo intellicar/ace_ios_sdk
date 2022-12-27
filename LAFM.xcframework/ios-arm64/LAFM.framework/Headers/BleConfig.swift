@@ -11,9 +11,11 @@ import CoreBluetooth
 public struct BleConfig{
     
     let deviceUuids:[CBUUID] = [CBUUID(string: "60910001-eef7-4b20-a0be-cf7a163415fc")]
+    let nameChar:CBUUID = CBUUID(string:"00001800-0000-1000-8000-00805f9b34fb")
+    //
     let read:CBUUID = CBUUID(string: "60910003-EEF7-4B20-A0BE-CF7A163415FC")
     let write:CBUUID = CBUUID(string:"60910002-EEF7-4B20-A0BE-CF7A163415FC")
-    let nameChar:CBUUID = CBUUID(string:"00001800-0000-1000-8000-00805f9b34fb")
+    
     //
     public var isDebugEnabled = false
     public var rawBeaconDebug = false

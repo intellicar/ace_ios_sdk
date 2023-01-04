@@ -16,6 +16,365 @@
       },
       {
         "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "LAFM"
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "LAFM"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LAFMDevice",
+        "printedName": "LAFMDevice",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LAFMDevice",
+                "printedName": "LAFM.LAFMDevice",
+                "usr": "s:4LAFM10LAFMDeviceC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM10LAFMDeviceC6sharedACvpZ",
+            "mangledName": "$s4LAFM10LAFMDeviceC6sharedACvpZ",
+            "moduleName": "LAFM",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LAFMDevice",
+                    "printedName": "LAFM.LAFMDevice",
+                    "usr": "s:4LAFM10LAFMDeviceC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM10LAFMDeviceC6sharedACvgZ",
+                "mangledName": "$s4LAFM10LAFMDeviceC6sharedACvgZ",
+                "moduleName": "LAFM",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "callbackHandler",
+            "printedName": "callbackHandler",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((LAFM.JSON) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(LAFM.JSON) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JSON",
+                        "printedName": "LAFM.JSON",
+                        "usr": "s:4LAFM4JSONV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM10LAFMDeviceC15callbackHandleryAA4JSONVcSgvp",
+            "mangledName": "$s4LAFM10LAFMDeviceC15callbackHandleryAA4JSONVcSgvp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((LAFM.JSON) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(LAFM.JSON) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "JSON",
+                            "printedName": "LAFM.JSON",
+                            "usr": "s:4LAFM4JSONV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM10LAFMDeviceC15callbackHandleryAA4JSONVcSgvg",
+                "mangledName": "$s4LAFM10LAFMDeviceC15callbackHandleryAA4JSONVcSgvg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((LAFM.JSON) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(LAFM.JSON) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "JSON",
+                            "printedName": "LAFM.JSON",
+                            "usr": "s:4LAFM4JSONV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM10LAFMDeviceC15callbackHandleryAA4JSONVcSgvs",
+                "mangledName": "$s4LAFM10LAFMDeviceC15callbackHandleryAA4JSONVcSgvs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM10LAFMDeviceC15callbackHandleryAA4JSONVcSgvM",
+                "mangledName": "$s4LAFM10LAFMDeviceC15callbackHandleryAA4JSONVcSgvM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "generateKeyPair",
+            "printedName": "generateKeyPair()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(privateKey: CryptoKit.Curve25519.KeyAgreement.PrivateKey?, publicKey: Swift.String?)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CryptoKit.Curve25519.KeyAgreement.PrivateKey?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PrivateKey",
+                        "printedName": "CryptoKit.Curve25519.KeyAgreement.PrivateKey",
+                        "usr": "s:9CryptoKit10Curve25519O12KeyAgreementO07PrivateD0V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4LAFM10LAFMDeviceC15generateKeyPair9CryptoKit10Curve25519O0D9AgreementO07PrivateD0VSg07privateD0_SSSg06publicD0tyF",
+            "mangledName": "$s4LAFM10LAFMDeviceC15generateKeyPair9CryptoKit10Curve25519O0D9AgreementO07PrivateD0VSg07privateD0_SSSg06publicD0tyF",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "exec",
+            "printedName": "exec(command:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JSON",
+                "printedName": "LAFM.JSON",
+                "usr": "s:4LAFM4JSONV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4LAFM10LAFMDeviceC4exec7commandyAA4JSONV_tF",
+            "mangledName": "$s4LAFM10LAFMDeviceC4exec7commandyAA4JSONV_tF",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setToken",
+            "printedName": "setToken(token:phonePrivatKey:scanTimout:connectionTimeout:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JSON",
+                "printedName": "LAFM.JSON",
+                "usr": "s:4LAFM4JSONV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PrivateKey",
+                "printedName": "CryptoKit.Curve25519.KeyAgreement.PrivateKey",
+                "usr": "s:9CryptoKit10Curve25519O12KeyAgreementO07PrivateD0V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4LAFM10LAFMDeviceC8setToken5token14phonePrivatKey10scanTimout17connectionTimeoutyAA4JSONV_9CryptoKit10Curve25519O0H9AgreementO07PrivateH0VS2dtF",
+            "mangledName": "$s4LAFM10LAFMDeviceC8setToken5token14phonePrivatKey10scanTimout17connectionTimeoutyAA4JSONV_9CryptoKit10Curve25519O0H9AgreementO07PrivateH0VS2dtF",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:4LAFM10LAFMDeviceC",
+        "mangledName": "$s4LAFM10LAFMDeviceC",
+        "moduleName": "LAFM",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LAFM",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -18027,13 +18386,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -18388,6 +18740,13 @@
             ],
             "usr": "s:ST",
             "mangledName": "$sST"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -19234,6 +19593,55 @@
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/LAFMDevice.swift",
+      "kind": "Dictionary",
+      "offset": 313,
+      "length": 325,
+      "value": "[(1, \"Device ID\"), (2, \"Board Name\"), (3, \"IMIE\"), (4, \"Sim NO\"), (5, \"Main Firmware ID\"), (6, \"Main Set ID\"), (7, \"Main Boot Firmware ID\"), (8, \"Coprocessor Firmware ID\"), (9, \"Coprocessor Set ID\"), (10, \"Coprocessor Boot Firmware ID\"), (11, \"Device Publickey\")]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/LAFMDevice.swift",
+      "kind": "Dictionary",
+      "offset": 689,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/LAFMDevice.swift",
+      "kind": "BooleanLiteral",
+      "offset": 956,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/LAFMDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1143,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/LAFMDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1176,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/LAFMDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13819,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/LAFMDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13862,
+      "length": 2,
+      "value": "30"
+    },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_102\/LAF102GatewayPacket_3.swift",
       "kind": "Array",

@@ -11085,7 +11085,10 @@
             "declKind": "EnumElement",
             "usr": "s:4LAFM5StateO8notFoundyA2CmF",
             "mangledName": "$s4LAFM5StateO8notFoundyA2CmF",
-            "moduleName": "LAFM"
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -19596,49 +19599,49 @@
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/LAFMDevice.swift",
       "kind": "Dictionary",
-      "offset": 313,
+      "offset": 213,
       "length": 325,
       "value": "[(1, \"Device ID\"), (2, \"Board Name\"), (3, \"IMIE\"), (4, \"Sim NO\"), (5, \"Main Firmware ID\"), (6, \"Main Set ID\"), (7, \"Main Boot Firmware ID\"), (8, \"Coprocessor Firmware ID\"), (9, \"Coprocessor Set ID\"), (10, \"Coprocessor Boot Firmware ID\"), (11, \"Device Publickey\")]"
     },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/LAFMDevice.swift",
       "kind": "Dictionary",
-      "offset": 689,
+      "offset": 589,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/LAFMDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 956,
+      "offset": 988,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/LAFMDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 1143,
+      "offset": 1230,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/LAFMDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 1176,
+      "offset": 1263,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/LAFMDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 13819,
+      "offset": 13988,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/LAFMDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 13862,
+      "offset": 14031,
       "length": 2,
       "value": "30"
     },
@@ -20394,7 +20397,7 @@
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Manager\/Bluetooth\/BluetoothManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1112,
+      "offset": 1118,
       "length": 5,
       "value": "false"
     },
@@ -20625,63 +20628,63 @@
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Manager\/Bluetooth\/State.swift",
       "kind": "StringLiteral",
-      "offset": 185,
+      "offset": 189,
       "length": 16,
       "value": "\"scanningStoped\""
     },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Manager\/Bluetooth\/State.swift",
       "kind": "StringLiteral",
-      "offset": 233,
+      "offset": 238,
       "length": 7,
       "value": "\"found\""
     },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Manager\/Bluetooth\/State.swift",
       "kind": "StringLiteral",
-      "offset": 261,
+      "offset": 272,
       "length": 10,
       "value": "\"notFound\""
     },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Manager\/Bluetooth\/State.swift",
       "kind": "StringLiteral",
-      "offset": 308,
+      "offset": 325,
       "length": 12,
       "value": "\"connecting\""
     },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Manager\/Bluetooth\/State.swift",
       "kind": "StringLiteral",
-      "offset": 353,
+      "offset": 374,
       "length": 18,
       "value": "\"failledToConnect\""
     },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Manager\/Bluetooth\/State.swift",
       "kind": "StringLiteral",
-      "offset": 408,
+      "offset": 433,
       "length": 11,
       "value": "\"connected\""
     },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Manager\/Bluetooth\/State.swift",
       "kind": "StringLiteral",
-      "offset": 448,
+      "offset": 477,
       "length": 14,
       "value": "\"disConnected\""
     },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Manager\/Bluetooth\/State.swift",
       "kind": "StringLiteral",
-      "offset": 507,
+      "offset": 540,
       "length": 12,
       "value": "\"authorized\""
     },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Manager\/Bluetooth\/State.swift",
       "kind": "StringLiteral",
-      "offset": 544,
+      "offset": 577,
       "length": 14,
       "value": "\"unAuthorized\""
     },
@@ -20695,63 +20698,63 @@
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Manager\/Bluetooth\/State.swift",
       "kind": "StringLiteral",
-      "offset": 185,
+      "offset": 189,
       "length": 16,
       "value": "\"scanningStoped\""
     },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Manager\/Bluetooth\/State.swift",
       "kind": "StringLiteral",
-      "offset": 233,
+      "offset": 238,
       "length": 7,
       "value": "\"found\""
     },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Manager\/Bluetooth\/State.swift",
       "kind": "StringLiteral",
-      "offset": 261,
+      "offset": 272,
       "length": 10,
       "value": "\"notFound\""
     },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Manager\/Bluetooth\/State.swift",
       "kind": "StringLiteral",
-      "offset": 308,
+      "offset": 325,
       "length": 12,
       "value": "\"connecting\""
     },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Manager\/Bluetooth\/State.swift",
       "kind": "StringLiteral",
-      "offset": 353,
+      "offset": 374,
       "length": 18,
       "value": "\"failledToConnect\""
     },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Manager\/Bluetooth\/State.swift",
       "kind": "StringLiteral",
-      "offset": 408,
+      "offset": 433,
       "length": 11,
       "value": "\"connected\""
     },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Manager\/Bluetooth\/State.swift",
       "kind": "StringLiteral",
-      "offset": 448,
+      "offset": 477,
       "length": 14,
       "value": "\"disConnected\""
     },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Manager\/Bluetooth\/State.swift",
       "kind": "StringLiteral",
-      "offset": 507,
+      "offset": 540,
       "length": 12,
       "value": "\"authorized\""
     },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/Manager\/Bluetooth\/State.swift",
       "kind": "StringLiteral",
-      "offset": 544,
+      "offset": 577,
       "length": 14,
       "value": "\"unAuthorized\""
     },

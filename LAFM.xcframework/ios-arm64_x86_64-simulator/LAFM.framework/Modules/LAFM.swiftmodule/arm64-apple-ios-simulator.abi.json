@@ -19613,35 +19613,35 @@
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/LAFMDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 988,
+      "offset": 1059,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/LAFMDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 1230,
+      "offset": 1301,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/LAFMDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 1263,
+      "offset": 1334,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/LAFMDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 13988,
+      "offset": 13344,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/runner\/work\/IntellicarACE\/IntellicarACE\/LAFM\/LAFMDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 14031,
+      "offset": 13387,
       "length": 2,
       "value": "30"
     },

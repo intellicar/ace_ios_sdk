@@ -13,9 +13,11 @@ import _StringProcessing
 @_hasMissingDesignatedInitializers open class LAFMDevice {
   public static let shared: LAFM.LAFMDevice
   public var callbackHandler: ((LAFM.JSON) -> ())?
-  public func generateKeyPair() -> (privateKey: CryptoKit.Curve25519.KeyAgreement.PrivateKey?, publicKey: Swift.String?)
+  public func generateKeyPair() -> (privateKey: CryptoKit.Curve25519.KeyAgreement.PrivateKey, publicKey: Swift.String)
   public func exec(command: LAFM.JSON)
-  public func setToken(token: LAFM.JSON, phonePrivatKey: CryptoKit.Curve25519.KeyAgreement.PrivateKey, scanTimout: Foundation.TimeInterval = 30, connectionTimeout: Foundation.TimeInterval = 30)
+  public func setToken(token: LAFM.JSON, phonePrivatKey: CryptoKit.Curve25519.KeyAgreement.PrivateKey, scanTimout: Foundation.TimeInterval?, connectionTimeout: Foundation.TimeInterval?, noOfRetry: Swift.Int?)
+  public func setToken(token: LAFM.JSON, phonePrivatKey: CryptoKit.Curve25519.KeyAgreement.PrivateKey)
+  public func getConnectionStatus() -> LAFM.BleConnectionState
   @objc deinit
 }
 public class GSMInfo : Swift.Codable {
@@ -417,6 +419,9 @@ extension LAFM.JSON : Swift.Codable {
   open func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
 }
+extension Swift.Array where Element == Swift.UInt8 {
+  public func bytesToHex(spacing: Swift.String) -> Swift.String
+}
 @_hasMissingDesignatedInitializers public class GenericGSMInfo_x : LAFM.GSMInfo {
   required public init(protocolID: LAFM.Short, payload: LAFM.ByteArray)
   @objc deinit
@@ -441,11 +446,9 @@ infix operator >>> : BitwiseShiftPrecedence
   open func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
 }
-public enum State : Swift.String {
+public enum BleConnectionState : Swift.String {
   case scanning
-  case scanningStoped
   case found
-  case notFound
   case connecting
   case failledToConnect
   case connected
@@ -483,9 +486,6 @@ public enum State : Swift.String {
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
-}
-extension Swift.Array where Element == Swift.UInt8 {
-  public func bytesToHex(spacing: Swift.String) -> Swift.String
 }
 @_hasMissingDesignatedInitializers public class SysInfo : Swift.Codable {
   public func getSize() -> Swift.Int
@@ -545,7 +545,9 @@ public struct BleConfig {
   public var LA5BeaconDebug: Swift.Bool
   public var scanTimeout: Swift.Double
   public var connectionTimeout: Swift.Double
-  public init(isDebugEnabled: Swift.Bool = false, scanTimeout: Foundation.TimeInterval, connectionTimeout: Foundation.TimeInterval)
+  public var bluetoothStatusCheckTimeout: Swift.Double
+  public var noOfRetry: Swift.Int
+  public init(isDebugEnabled: Swift.Bool, scanTimeout: Foundation.TimeInterval?, connectionTimeout: Foundation.TimeInterval?, noOfRetry: Swift.Int?)
 }
 @_hasMissingDesignatedInitializers public class GPSInfo : Swift.Codable {
   public var protocolVer: LAFM.Short
@@ -592,6 +594,6 @@ extension LAFM.`Type` : Swift.Hashable {}
 extension LAFM.`Type` : Swift.RawRepresentable {}
 extension LAFM.writingOptionsKeys : Swift.Equatable {}
 extension LAFM.writingOptionsKeys : Swift.Hashable {}
-extension LAFM.State : Swift.Equatable {}
-extension LAFM.State : Swift.Hashable {}
-extension LAFM.State : Swift.RawRepresentable {}
+extension LAFM.BleConnectionState : Swift.Equatable {}
+extension LAFM.BleConnectionState : Swift.Hashable {}
+extension LAFM.BleConnectionState : Swift.RawRepresentable {}

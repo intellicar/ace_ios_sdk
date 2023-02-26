@@ -238,42 +238,26 @@
               {
                 "kind": "TypeNominal",
                 "name": "Tuple",
-                "printedName": "(privateKey: CryptoKit.Curve25519.KeyAgreement.PrivateKey?, publicKey: Swift.String?)",
+                "printedName": "(privateKey: CryptoKit.Curve25519.KeyAgreement.PrivateKey, publicKey: Swift.String)",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "CryptoKit.Curve25519.KeyAgreement.PrivateKey?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PrivateKey",
-                        "printedName": "CryptoKit.Curve25519.KeyAgreement.PrivateKey",
-                        "usr": "s:9CryptoKit10Curve25519O12KeyAgreementO07PrivateD0V"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "PrivateKey",
+                    "printedName": "CryptoKit.Curve25519.KeyAgreement.PrivateKey",
+                    "usr": "s:9CryptoKit10Curve25519O12KeyAgreementO07PrivateD0V"
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:4LAFM10LAFMDeviceC15generateKeyPair9CryptoKit10Curve25519O0D9AgreementO07PrivateD0VSg07privateD0_SSSg06publicD0tyF",
-            "mangledName": "$s4LAFM10LAFMDeviceC15generateKeyPair9CryptoKit10Curve25519O0D9AgreementO07PrivateD0VSg07privateD0_SSSg06publicD0tyF",
+            "usr": "s:4LAFM10LAFMDeviceC15generateKeyPair9CryptoKit10Curve25519O0D9AgreementO07PrivateD0V07privateD0_SS06publicD0tyF",
+            "mangledName": "$s4LAFM10LAFMDeviceC15generateKeyPair9CryptoKit10Curve25519O0D9AgreementO07PrivateD0V07privateD0_SS06publicD0tyF",
             "moduleName": "LAFM",
             "declAttributes": [
               "AccessControl"
@@ -309,7 +293,7 @@
           {
             "kind": "Function",
             "name": "setToken",
-            "printedName": "setToken(token:phonePrivatKey:scanTimout:connectionTimeout:)",
+            "printedName": "setToken(token:phonePrivatKey:scanTimout:connectionTimeout:noOfRetry:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -330,22 +314,103 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "hasDefaultArg": true,
-                "usr": "s:Sd"
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "hasDefaultArg": true,
-                "usr": "s:Sd"
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:4LAFM10LAFMDeviceC8setToken5token14phonePrivatKey10scanTimout17connectionTimeoutyAA4JSONV_9CryptoKit10Curve25519O0H9AgreementO07PrivateH0VS2dtF",
-            "mangledName": "$s4LAFM10LAFMDeviceC8setToken5token14phonePrivatKey10scanTimout17connectionTimeoutyAA4JSONV_9CryptoKit10Curve25519O0H9AgreementO07PrivateH0VS2dtF",
+            "usr": "s:4LAFM10LAFMDeviceC8setToken5token14phonePrivatKey10scanTimout17connectionTimeout9noOfRetryyAA4JSONV_9CryptoKit10Curve25519O0H9AgreementO07PrivateH0VSdSgASSiSgtF",
+            "mangledName": "$s4LAFM10LAFMDeviceC8setToken5token14phonePrivatKey10scanTimout17connectionTimeout9noOfRetryyAA4JSONV_9CryptoKit10Curve25519O0H9AgreementO07PrivateH0VSdSgASSiSgtF",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setToken",
+            "printedName": "setToken(token:phonePrivatKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JSON",
+                "printedName": "LAFM.JSON",
+                "usr": "s:4LAFM4JSONV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PrivateKey",
+                "printedName": "CryptoKit.Curve25519.KeyAgreement.PrivateKey",
+                "usr": "s:9CryptoKit10Curve25519O12KeyAgreementO07PrivateD0V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4LAFM10LAFMDeviceC8setToken5token14phonePrivatKeyyAA4JSONV_9CryptoKit10Curve25519O0H9AgreementO07PrivateH0VtF",
+            "mangledName": "$s4LAFM10LAFMDeviceC8setToken5token14phonePrivatKeyyAA4JSONV_9CryptoKit10Curve25519O0H9AgreementO07PrivateH0VtF",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getConnectionStatus",
+            "printedName": "getConnectionStatus()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BleConnectionState",
+                "printedName": "LAFM.BleConnectionState",
+                "usr": "s:4LAFM18BleConnectionStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4LAFM10LAFMDeviceC19getConnectionStatusAA03BleD5StateOyF",
+            "mangledName": "$s4LAFM10LAFMDeviceC19getConnectionStatusAA03BleD5StateOyF",
             "moduleName": "LAFM",
             "declAttributes": [
               "AccessControl"
@@ -8795,6 +8860,26 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LAFM",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LAFM",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "CoreBluetooth",
         "printedName": "CoreBluetooth",
         "declKind": "Import",
@@ -8826,6 +8911,16 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "LAFM"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LAFM",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -9407,6 +9502,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LAFM",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "GPSGNGGAInfo",
         "printedName": "GPSGNGGAInfo",
@@ -9661,6 +9766,26 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LAFM",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LAFM",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "GenericGSMInfo_x",
         "printedName": "GenericGSMInfo_x",
@@ -9788,13 +9913,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "LAFM"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -9802,6 +9920,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LAFM"
       },
       {
         "kind": "Import",
@@ -10929,9 +11054,29 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LAFM",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LAFM",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
-        "name": "State",
-        "printedName": "State",
+        "name": "BleConnectionState",
+        "printedName": "BleConnectionState",
         "children": [
           {
             "kind": "Var",
@@ -10941,24 +11086,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(LAFM.State.Type) -> LAFM.State",
+                "printedName": "(LAFM.BleConnectionState.Type) -> LAFM.BleConnectionState",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "State",
-                    "printedName": "LAFM.State",
-                    "usr": "s:4LAFM5StateO"
+                    "name": "BleConnectionState",
+                    "printedName": "LAFM.BleConnectionState",
+                    "usr": "s:4LAFM18BleConnectionStateO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "LAFM.State.Type",
+                    "printedName": "LAFM.BleConnectionState.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "State",
-                        "printedName": "LAFM.State",
-                        "usr": "s:4LAFM5StateO"
+                        "name": "BleConnectionState",
+                        "printedName": "LAFM.BleConnectionState",
+                        "usr": "s:4LAFM18BleConnectionStateO"
                       }
                     ]
                   }
@@ -10966,49 +11111,9 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:4LAFM5StateO8scanningyA2CmF",
-            "mangledName": "$s4LAFM5StateO8scanningyA2CmF",
+            "usr": "s:4LAFM18BleConnectionStateO8scanningyA2CmF",
+            "mangledName": "$s4LAFM18BleConnectionStateO8scanningyA2CmF",
             "moduleName": "LAFM"
-          },
-          {
-            "kind": "Var",
-            "name": "scanningStoped",
-            "printedName": "scanningStoped",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(LAFM.State.Type) -> LAFM.State",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "State",
-                    "printedName": "LAFM.State",
-                    "usr": "s:4LAFM5StateO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "LAFM.State.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "State",
-                        "printedName": "LAFM.State",
-                        "usr": "s:4LAFM5StateO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:4LAFM5StateO14scanningStopedyA2CmF",
-            "mangledName": "$s4LAFM5StateO14scanningStopedyA2CmF",
-            "moduleName": "LAFM",
-            "declAttributes": [
-              "RawDocComment"
-            ]
           },
           {
             "kind": "Var",
@@ -11018,24 +11123,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(LAFM.State.Type) -> LAFM.State",
+                "printedName": "(LAFM.BleConnectionState.Type) -> LAFM.BleConnectionState",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "State",
-                    "printedName": "LAFM.State",
-                    "usr": "s:4LAFM5StateO"
+                    "name": "BleConnectionState",
+                    "printedName": "LAFM.BleConnectionState",
+                    "usr": "s:4LAFM18BleConnectionStateO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "LAFM.State.Type",
+                    "printedName": "LAFM.BleConnectionState.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "State",
-                        "printedName": "LAFM.State",
-                        "usr": "s:4LAFM5StateO"
+                        "name": "BleConnectionState",
+                        "printedName": "LAFM.BleConnectionState",
+                        "usr": "s:4LAFM18BleConnectionStateO"
                       }
                     ]
                   }
@@ -11043,52 +11148,9 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:4LAFM5StateO5foundyA2CmF",
-            "mangledName": "$s4LAFM5StateO5foundyA2CmF",
-            "moduleName": "LAFM",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "notFound",
-            "printedName": "notFound",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(LAFM.State.Type) -> LAFM.State",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "State",
-                    "printedName": "LAFM.State",
-                    "usr": "s:4LAFM5StateO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "LAFM.State.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "State",
-                        "printedName": "LAFM.State",
-                        "usr": "s:4LAFM5StateO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:4LAFM5StateO8notFoundyA2CmF",
-            "mangledName": "$s4LAFM5StateO8notFoundyA2CmF",
-            "moduleName": "LAFM",
-            "declAttributes": [
-              "RawDocComment"
-            ]
+            "usr": "s:4LAFM18BleConnectionStateO5foundyA2CmF",
+            "mangledName": "$s4LAFM18BleConnectionStateO5foundyA2CmF",
+            "moduleName": "LAFM"
           },
           {
             "kind": "Var",
@@ -11098,24 +11160,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(LAFM.State.Type) -> LAFM.State",
+                "printedName": "(LAFM.BleConnectionState.Type) -> LAFM.BleConnectionState",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "State",
-                    "printedName": "LAFM.State",
-                    "usr": "s:4LAFM5StateO"
+                    "name": "BleConnectionState",
+                    "printedName": "LAFM.BleConnectionState",
+                    "usr": "s:4LAFM18BleConnectionStateO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "LAFM.State.Type",
+                    "printedName": "LAFM.BleConnectionState.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "State",
-                        "printedName": "LAFM.State",
-                        "usr": "s:4LAFM5StateO"
+                        "name": "BleConnectionState",
+                        "printedName": "LAFM.BleConnectionState",
+                        "usr": "s:4LAFM18BleConnectionStateO"
                       }
                     ]
                   }
@@ -11123,12 +11185,9 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:4LAFM5StateO10connectingyA2CmF",
-            "mangledName": "$s4LAFM5StateO10connectingyA2CmF",
-            "moduleName": "LAFM",
-            "declAttributes": [
-              "RawDocComment"
-            ]
+            "usr": "s:4LAFM18BleConnectionStateO10connectingyA2CmF",
+            "mangledName": "$s4LAFM18BleConnectionStateO10connectingyA2CmF",
+            "moduleName": "LAFM"
           },
           {
             "kind": "Var",
@@ -11138,24 +11197,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(LAFM.State.Type) -> LAFM.State",
+                "printedName": "(LAFM.BleConnectionState.Type) -> LAFM.BleConnectionState",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "State",
-                    "printedName": "LAFM.State",
-                    "usr": "s:4LAFM5StateO"
+                    "name": "BleConnectionState",
+                    "printedName": "LAFM.BleConnectionState",
+                    "usr": "s:4LAFM18BleConnectionStateO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "LAFM.State.Type",
+                    "printedName": "LAFM.BleConnectionState.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "State",
-                        "printedName": "LAFM.State",
-                        "usr": "s:4LAFM5StateO"
+                        "name": "BleConnectionState",
+                        "printedName": "LAFM.BleConnectionState",
+                        "usr": "s:4LAFM18BleConnectionStateO"
                       }
                     ]
                   }
@@ -11163,12 +11222,9 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:4LAFM5StateO16failledToConnectyA2CmF",
-            "mangledName": "$s4LAFM5StateO16failledToConnectyA2CmF",
-            "moduleName": "LAFM",
-            "declAttributes": [
-              "RawDocComment"
-            ]
+            "usr": "s:4LAFM18BleConnectionStateO16failledToConnectyA2CmF",
+            "mangledName": "$s4LAFM18BleConnectionStateO16failledToConnectyA2CmF",
+            "moduleName": "LAFM"
           },
           {
             "kind": "Var",
@@ -11178,24 +11234,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(LAFM.State.Type) -> LAFM.State",
+                "printedName": "(LAFM.BleConnectionState.Type) -> LAFM.BleConnectionState",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "State",
-                    "printedName": "LAFM.State",
-                    "usr": "s:4LAFM5StateO"
+                    "name": "BleConnectionState",
+                    "printedName": "LAFM.BleConnectionState",
+                    "usr": "s:4LAFM18BleConnectionStateO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "LAFM.State.Type",
+                    "printedName": "LAFM.BleConnectionState.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "State",
-                        "printedName": "LAFM.State",
-                        "usr": "s:4LAFM5StateO"
+                        "name": "BleConnectionState",
+                        "printedName": "LAFM.BleConnectionState",
+                        "usr": "s:4LAFM18BleConnectionStateO"
                       }
                     ]
                   }
@@ -11203,12 +11259,9 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:4LAFM5StateO9connectedyA2CmF",
-            "mangledName": "$s4LAFM5StateO9connectedyA2CmF",
-            "moduleName": "LAFM",
-            "declAttributes": [
-              "RawDocComment"
-            ]
+            "usr": "s:4LAFM18BleConnectionStateO9connectedyA2CmF",
+            "mangledName": "$s4LAFM18BleConnectionStateO9connectedyA2CmF",
+            "moduleName": "LAFM"
           },
           {
             "kind": "Var",
@@ -11218,24 +11271,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(LAFM.State.Type) -> LAFM.State",
+                "printedName": "(LAFM.BleConnectionState.Type) -> LAFM.BleConnectionState",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "State",
-                    "printedName": "LAFM.State",
-                    "usr": "s:4LAFM5StateO"
+                    "name": "BleConnectionState",
+                    "printedName": "LAFM.BleConnectionState",
+                    "usr": "s:4LAFM18BleConnectionStateO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "LAFM.State.Type",
+                    "printedName": "LAFM.BleConnectionState.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "State",
-                        "printedName": "LAFM.State",
-                        "usr": "s:4LAFM5StateO"
+                        "name": "BleConnectionState",
+                        "printedName": "LAFM.BleConnectionState",
+                        "usr": "s:4LAFM18BleConnectionStateO"
                       }
                     ]
                   }
@@ -11243,12 +11296,9 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:4LAFM5StateO12disConnectedyA2CmF",
-            "mangledName": "$s4LAFM5StateO12disConnectedyA2CmF",
-            "moduleName": "LAFM",
-            "declAttributes": [
-              "RawDocComment"
-            ]
+            "usr": "s:4LAFM18BleConnectionStateO12disConnectedyA2CmF",
+            "mangledName": "$s4LAFM18BleConnectionStateO12disConnectedyA2CmF",
+            "moduleName": "LAFM"
           },
           {
             "kind": "Var",
@@ -11258,24 +11308,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(LAFM.State.Type) -> LAFM.State",
+                "printedName": "(LAFM.BleConnectionState.Type) -> LAFM.BleConnectionState",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "State",
-                    "printedName": "LAFM.State",
-                    "usr": "s:4LAFM5StateO"
+                    "name": "BleConnectionState",
+                    "printedName": "LAFM.BleConnectionState",
+                    "usr": "s:4LAFM18BleConnectionStateO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "LAFM.State.Type",
+                    "printedName": "LAFM.BleConnectionState.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "State",
-                        "printedName": "LAFM.State",
-                        "usr": "s:4LAFM5StateO"
+                        "name": "BleConnectionState",
+                        "printedName": "LAFM.BleConnectionState",
+                        "usr": "s:4LAFM18BleConnectionStateO"
                       }
                     ]
                   }
@@ -11283,12 +11333,9 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:4LAFM5StateO10authorizedyA2CmF",
-            "mangledName": "$s4LAFM5StateO10authorizedyA2CmF",
-            "moduleName": "LAFM",
-            "declAttributes": [
-              "RawDocComment"
-            ]
+            "usr": "s:4LAFM18BleConnectionStateO10authorizedyA2CmF",
+            "mangledName": "$s4LAFM18BleConnectionStateO10authorizedyA2CmF",
+            "moduleName": "LAFM"
           },
           {
             "kind": "Var",
@@ -11298,24 +11345,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(LAFM.State.Type) -> LAFM.State",
+                "printedName": "(LAFM.BleConnectionState.Type) -> LAFM.BleConnectionState",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "State",
-                    "printedName": "LAFM.State",
-                    "usr": "s:4LAFM5StateO"
+                    "name": "BleConnectionState",
+                    "printedName": "LAFM.BleConnectionState",
+                    "usr": "s:4LAFM18BleConnectionStateO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "LAFM.State.Type",
+                    "printedName": "LAFM.BleConnectionState.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "State",
-                        "printedName": "LAFM.State",
-                        "usr": "s:4LAFM5StateO"
+                        "name": "BleConnectionState",
+                        "printedName": "LAFM.BleConnectionState",
+                        "usr": "s:4LAFM18BleConnectionStateO"
                       }
                     ]
                   }
@@ -11323,8 +11370,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:4LAFM5StateO12unAuthorizedyA2CmF",
-            "mangledName": "$s4LAFM5StateO12unAuthorizedyA2CmF",
+            "usr": "s:4LAFM18BleConnectionStateO12unAuthorizedyA2CmF",
+            "mangledName": "$s4LAFM18BleConnectionStateO12unAuthorizedyA2CmF",
             "moduleName": "LAFM"
           },
           {
@@ -11335,13 +11382,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "LAFM.State?",
+                "printedName": "LAFM.BleConnectionState?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "State",
-                    "printedName": "LAFM.State",
-                    "usr": "s:4LAFM5StateO"
+                    "name": "BleConnectionState",
+                    "printedName": "LAFM.BleConnectionState",
+                    "usr": "s:4LAFM18BleConnectionStateO"
                   }
                 ],
                 "usr": "s:Sq"
@@ -11354,8 +11401,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:4LAFM5StateO8rawValueACSgSS_tcfc",
-            "mangledName": "$s4LAFM5StateO8rawValueACSgSS_tcfc",
+            "usr": "s:4LAFM18BleConnectionStateO8rawValueACSgSS_tcfc",
+            "mangledName": "$s4LAFM18BleConnectionStateO8rawValueACSgSS_tcfc",
             "moduleName": "LAFM",
             "implicit": true,
             "init_kind": "Designated"
@@ -11373,8 +11420,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:4LAFM5StateO8rawValueSSvp",
-            "mangledName": "$s4LAFM5StateO8rawValueSSvp",
+            "usr": "s:4LAFM18BleConnectionStateO8rawValueSSvp",
+            "mangledName": "$s4LAFM18BleConnectionStateO8rawValueSSvp",
             "moduleName": "LAFM",
             "implicit": true,
             "accessors": [
@@ -11391,8 +11438,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:4LAFM5StateO8rawValueSSvg",
-                "mangledName": "$s4LAFM5StateO8rawValueSSvg",
+                "usr": "s:4LAFM18BleConnectionStateO8rawValueSSvg",
+                "mangledName": "$s4LAFM18BleConnectionStateO8rawValueSSvg",
                 "moduleName": "LAFM",
                 "implicit": true,
                 "accessorKind": "get"
@@ -11401,8 +11448,8 @@
           }
         ],
         "declKind": "Enum",
-        "usr": "s:4LAFM5StateO",
-        "mangledName": "$s4LAFM5StateO",
+        "usr": "s:4LAFM18BleConnectionStateO",
+        "mangledName": "$s4LAFM18BleConnectionStateO",
         "moduleName": "LAFM",
         "declAttributes": [
           "AccessControl"
@@ -12431,6 +12478,30 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "LAFM"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LAFM",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "LAFM"
       },
       {
         "kind": "Import",
@@ -13517,16 +13588,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "LAFM",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "GSMQENG_3",
         "printedName": "GSMQENG_3",
@@ -14025,6 +14086,23 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LAFM",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LAFM"
       },
       {
         "kind": "Import",
@@ -16323,6 +16401,40 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "LAFM"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LAFM",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LAFM"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LAFM",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "GPSGLGSVInfoInner",
         "printedName": "GPSGLGSVInfoInner",
@@ -16991,9 +17103,181 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "bluetoothStatusCheckTimeout",
+            "printedName": "bluetoothStatusCheckTimeout",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM9BleConfigV27bluetoothStatusCheckTimeoutSdvp",
+            "mangledName": "$s4LAFM9BleConfigV27bluetoothStatusCheckTimeoutSdvp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9BleConfigV27bluetoothStatusCheckTimeoutSdvg",
+                "mangledName": "$s4LAFM9BleConfigV27bluetoothStatusCheckTimeoutSdvg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9BleConfigV27bluetoothStatusCheckTimeoutSdvs",
+                "mangledName": "$s4LAFM9BleConfigV27bluetoothStatusCheckTimeoutSdvs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9BleConfigV27bluetoothStatusCheckTimeoutSdvM",
+                "mangledName": "$s4LAFM9BleConfigV27bluetoothStatusCheckTimeoutSdvM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "noOfRetry",
+            "printedName": "noOfRetry",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4LAFM9BleConfigV9noOfRetrySivp",
+            "mangledName": "$s4LAFM9BleConfigV9noOfRetrySivp",
+            "moduleName": "LAFM",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9BleConfigV9noOfRetrySivg",
+                "mangledName": "$s4LAFM9BleConfigV9noOfRetrySivg",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9BleConfigV9noOfRetrySivs",
+                "mangledName": "$s4LAFM9BleConfigV9noOfRetrySivs",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4LAFM9BleConfigV9noOfRetrySivM",
+                "mangledName": "$s4LAFM9BleConfigV9noOfRetrySivM",
+                "moduleName": "LAFM",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(isDebugEnabled:scanTimeout:connectionTimeout:)",
+            "printedName": "init(isDebugEnabled:scanTimeout:connectionTimeout:noOfRetry:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -17005,28 +17289,58 @@
                 "kind": "TypeNominal",
                 "name": "Bool",
                 "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
                 "usr": "s:Sb"
               },
               {
                 "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:4LAFM9BleConfigV14isDebugEnabled11scanTimeout010connectionH0ACSb_S2dtcfc",
-            "mangledName": "$s4LAFM9BleConfigV14isDebugEnabled11scanTimeout010connectionH0ACSb_S2dtcfc",
+            "usr": "s:4LAFM9BleConfigV14isDebugEnabled11scanTimeout010connectionH09noOfRetryACSb_SdSgAHSiSgtcfc",
+            "mangledName": "$s4LAFM9BleConfigV14isDebugEnabled11scanTimeout010connectionH09noOfRetryACSb_SdSgAHSiSgtcfc",
             "moduleName": "LAFM",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           }
@@ -18389,6 +18703,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -18743,13 +19064,6 @@
             ],
             "usr": "s:ST",
             "mangledName": "$sST"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -19597,55 +19911,6 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/LAFMDevice.swift",
-      "kind": "Dictionary",
-      "offset": 213,
-      "length": 325,
-      "value": "[(1, \"Device ID\"), (2, \"Board Name\"), (3, \"IMIE\"), (4, \"Sim NO\"), (5, \"Main Firmware ID\"), (6, \"Main Set ID\"), (7, \"Main Boot Firmware ID\"), (8, \"Coprocessor Firmware ID\"), (9, \"Coprocessor Set ID\"), (10, \"Coprocessor Boot Firmware ID\"), (11, \"Device Publickey\")]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/LAFMDevice.swift",
-      "kind": "Dictionary",
-      "offset": 589,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/LAFMDevice.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1059,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/LAFMDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1301,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/LAFMDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1334,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/LAFMDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13344,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/LAFMDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13387,
-      "length": 2,
-      "value": "30"
-    },
-    {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_102\/LAF102GatewayPacket_3.swift",
       "kind": "Array",
       "offset": 181,
@@ -20115,6 +20380,13 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Helper\/SeqIdStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 213,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/LAF100ChunkTransferInitReply_10.swift",
       "kind": "Array",
       "offset": 198,
@@ -20157,198 +20429,198 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Ble Beacon\/RawBleBeaconParser.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/RawBLE\/RawBleBeaconParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 240,
+      "offset": 239,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Ble Beacon\/RawBleBeaconParser.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/RawBLE\/RawBleBeaconParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 264,
+      "offset": 263,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Ble Beacon\/RawBleBeaconParser.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/RawBLE\/RawBleBeaconParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 283,
+      "offset": 282,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Ble Beacon\/RawBleBeaconParser.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/RawBLE\/RawBleBeaconParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 309,
+      "offset": 308,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Ble Beacon\/RawBleBeaconParser.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/RawBLE\/RawBleBeaconParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 343,
+      "offset": 342,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Ble Beacon\/RawBleBeaconParser.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/RawBLE\/RawBleBeaconParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 367,
+      "offset": 366,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Ble Beacon\/RawBleBeaconParser.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/RawBLE\/RawBleBeaconParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 394,
+      "offset": 393,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Ble Beacon\/RawBleBeaconParser.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/RawBLE\/RawBleBeaconParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 414,
+      "offset": 413,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Ble Beacon\/RawBleBeaconParser.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/RawBLE\/RawBleBeaconParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 240,
+      "offset": 239,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Ble Beacon\/RawBleBeaconParser.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/RawBLE\/RawBleBeaconParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 264,
+      "offset": 263,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Ble Beacon\/RawBleBeaconParser.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/RawBLE\/RawBleBeaconParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 283,
+      "offset": 282,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Ble Beacon\/RawBleBeaconParser.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/RawBLE\/RawBleBeaconParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 309,
+      "offset": 308,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Ble Beacon\/RawBleBeaconParser.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/RawBLE\/RawBleBeaconParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 343,
+      "offset": 342,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Ble Beacon\/RawBleBeaconParser.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/RawBLE\/RawBleBeaconParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 367,
+      "offset": 366,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Ble Beacon\/RawBleBeaconParser.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/RawBLE\/RawBleBeaconParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 394,
+      "offset": 393,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Ble Beacon\/RawBleBeaconParser.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/RawBLE\/RawBleBeaconParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 414,
+      "offset": 413,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Ble Beacon\/RawBleBeaconParser.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/RawBLE\/RawBleBeaconParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 240,
+      "offset": 239,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Ble Beacon\/RawBleBeaconParser.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/RawBLE\/RawBleBeaconParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 264,
+      "offset": 263,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Ble Beacon\/RawBleBeaconParser.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/RawBLE\/RawBleBeaconParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 283,
+      "offset": 282,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Ble Beacon\/RawBleBeaconParser.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/RawBLE\/RawBleBeaconParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 309,
+      "offset": 308,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Ble Beacon\/RawBleBeaconParser.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/RawBLE\/RawBleBeaconParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 343,
+      "offset": 342,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Ble Beacon\/RawBleBeaconParser.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/RawBLE\/RawBleBeaconParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 367,
+      "offset": 366,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Ble Beacon\/RawBleBeaconParser.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/RawBLE\/RawBleBeaconParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 394,
+      "offset": 393,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Ble Beacon\/RawBleBeaconParser.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/RawBLE\/RawBleBeaconParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 414,
+      "offset": 413,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Ble Beacon\/RawBleBeaconParser.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/RawBLE\/RawBleBeaconParser.swift",
       "kind": "Array",
-      "offset": 522,
+      "offset": 521,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Ble Beacon\/RawBleBeaconParser.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/RawBLE\/RawBleBeaconParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 553,
+      "offset": 552,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Ble Beacon\/RawBleBeaconParser.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/RawBLE\/RawBleBeaconParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 577,
+      "offset": 576,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Ble Beacon\/RawBleBeaconParser.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/RawBLE\/RawBleBeaconParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 845,
+      "offset": 844,
       "length": 5,
       "value": "false"
     },
@@ -20390,23 +20662,37 @@
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/BluetoothManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 862,
+      "offset": 746,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/BluetoothManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1069,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/BluetoothManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 1125,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/BluetoothManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1157,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/BluetoothManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1118,
+      "offset": 1368,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/BluetoothManager.swift",
-      "kind": "StringLiteral",
-      "offset": 377,
-      "length": 16,
-      "value": "\"LAFM.BluetoothManager\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gsm\/GSMQENG_2.swift",
@@ -20619,142 +20905,114 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/State.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/BleConnectionState.swift",
       "kind": "StringLiteral",
-      "offset": 144,
+      "offset": 157,
       "length": 10,
       "value": "\"scanning\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/State.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/BleConnectionState.swift",
       "kind": "StringLiteral",
-      "offset": 189,
-      "length": 16,
-      "value": "\"scanningStoped\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/State.swift",
-      "kind": "StringLiteral",
-      "offset": 238,
+      "offset": 185,
       "length": 7,
       "value": "\"found\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/State.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/BleConnectionState.swift",
       "kind": "StringLiteral",
-      "offset": 272,
-      "length": 10,
-      "value": "\"notFound\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/State.swift",
-      "kind": "StringLiteral",
-      "offset": 325,
+      "offset": 215,
       "length": 12,
       "value": "\"connecting\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/State.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/BleConnectionState.swift",
       "kind": "StringLiteral",
-      "offset": 374,
+      "offset": 256,
       "length": 18,
       "value": "\"failledToConnect\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/State.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/BleConnectionState.swift",
       "kind": "StringLiteral",
-      "offset": 433,
+      "offset": 296,
       "length": 11,
       "value": "\"connected\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/State.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/BleConnectionState.swift",
       "kind": "StringLiteral",
-      "offset": 477,
+      "offset": 332,
       "length": 14,
       "value": "\"disConnected\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/State.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/BleConnectionState.swift",
       "kind": "StringLiteral",
-      "offset": 540,
+      "offset": 369,
       "length": 12,
       "value": "\"authorized\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/State.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/BleConnectionState.swift",
       "kind": "StringLiteral",
-      "offset": 577,
+      "offset": 406,
       "length": 14,
       "value": "\"unAuthorized\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/State.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/BleConnectionState.swift",
       "kind": "StringLiteral",
-      "offset": 144,
+      "offset": 157,
       "length": 10,
       "value": "\"scanning\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/State.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/BleConnectionState.swift",
       "kind": "StringLiteral",
-      "offset": 189,
-      "length": 16,
-      "value": "\"scanningStoped\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/State.swift",
-      "kind": "StringLiteral",
-      "offset": 238,
+      "offset": 185,
       "length": 7,
       "value": "\"found\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/State.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/BleConnectionState.swift",
       "kind": "StringLiteral",
-      "offset": 272,
-      "length": 10,
-      "value": "\"notFound\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/State.swift",
-      "kind": "StringLiteral",
-      "offset": 325,
+      "offset": 215,
       "length": 12,
       "value": "\"connecting\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/State.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/BleConnectionState.swift",
       "kind": "StringLiteral",
-      "offset": 374,
+      "offset": 256,
       "length": 18,
       "value": "\"failledToConnect\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/State.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/BleConnectionState.swift",
       "kind": "StringLiteral",
-      "offset": 433,
+      "offset": 296,
       "length": 11,
       "value": "\"connected\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/State.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/BleConnectionState.swift",
       "kind": "StringLiteral",
-      "offset": 477,
+      "offset": 332,
       "length": 14,
       "value": "\"disConnected\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/State.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/BleConnectionState.swift",
       "kind": "StringLiteral",
-      "offset": 540,
+      "offset": 369,
       "length": 12,
       "value": "\"authorized\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/State.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/BleConnectionState.swift",
       "kind": "StringLiteral",
-      "offset": 577,
+      "offset": 406,
       "length": 14,
       "value": "\"unAuthorized\""
     },
@@ -20810,21 +21068,21 @@
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Layer5Beacon\/LA5BeaconHandler.swift",
       "kind": "Array",
-      "offset": 402,
+      "offset": 461,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Layer5Beacon\/LA5BeaconHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 430,
+      "offset": 497,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Layer5Beacon\/LA5BeaconHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1915,
+      "offset": 2213,
       "length": 5,
       "value": "false"
     },
@@ -20878,6 +21136,13 @@
       "value": "\"LAFM.GPSInfo_1\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/CoreBleManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 854,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_102\/LAF102Chacha20Poly1305Cipher_2.swift",
       "kind": "Array",
       "offset": 203,
@@ -20908,124 +21173,131 @@
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/BleConfig.swift",
       "kind": "StringLiteral",
-      "offset": 196,
+      "offset": 197,
       "length": 38,
       "value": "\"60910001-eef7-4b20-a0be-cf7a163415fc\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/BleConfig.swift",
       "kind": "StringLiteral",
-      "offset": 277,
+      "offset": 278,
       "length": 38,
       "value": "\"00001800-0000-1000-8000-00805f9b34fb\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/BleConfig.swift",
       "kind": "StringLiteral",
-      "offset": 361,
+      "offset": 367,
       "length": 38,
       "value": "\"60910003-EEF7-4B20-A0BE-CF7A163415FC\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/BleConfig.swift",
       "kind": "StringLiteral",
-      "offset": 438,
+      "offset": 444,
       "length": 38,
       "value": "\"60910002-EEF7-4B20-A0BE-CF7A163415FC\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/BleConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 522,
+      "offset": 528,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/BleConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 560,
+      "offset": 566,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/BleConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 598,
+      "offset": 604,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/BleConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 653,
+      "offset": 664,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/BleConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 704,
+      "offset": 715,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/BleConfig.swift",
-      "kind": "BooleanLiteral",
-      "offset": 758,
-      "length": 5,
-      "value": "false"
+      "kind": "IntegerLiteral",
+      "offset": 776,
+      "length": 2,
+      "value": "30"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Ble Beacon\/BeaconState.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/BleConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 806,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/RawBLE\/BeaconState.swift",
       "kind": "Dictionary",
       "offset": 287,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Ble Beacon\/BeaconState.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/RawBLE\/BeaconState.swift",
       "kind": "Array",
       "offset": 351,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Ble Beacon\/BeaconState.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/RawBLE\/BeaconState.swift",
       "kind": "BooleanLiteral",
       "offset": 465,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Ble Beacon\/BeaconState.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/RawBLE\/BeaconState.swift",
       "kind": "BooleanLiteral",
       "offset": 511,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Ble Beacon\/BeaconState.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/RawBLE\/BeaconState.swift",
       "kind": "BooleanLiteral",
       "offset": 552,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Ble Beacon\/BeaconState.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/RawBLE\/BeaconState.swift",
       "kind": "Dictionary",
       "offset": 1538,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Ble Beacon\/BeaconState.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/RawBLE\/BeaconState.swift",
       "kind": "BooleanLiteral",
       "offset": 1635,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Ble Beacon\/BeaconState.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/RawBLE\/BeaconState.swift",
       "kind": "IntegerLiteral",
       "offset": 1691,
       "length": 1,
@@ -21503,338 +21775,422 @@
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
       "kind": "IntegerLiteral",
-      "offset": 951,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 982,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1015,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1049,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1072,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1113,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1133,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1156,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 951,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 982,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1015,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1049,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1072,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1113,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1133,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1156,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 951,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 982,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1015,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1049,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1072,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1113,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1133,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1156,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1218,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
-      "kind": "IntegerLiteral",
       "offset": 1248,
       "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1274,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1300,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1218,
-      "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1248,
+      "offset": 1279,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1274,
+      "offset": 1312,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1300,
+      "offset": 1346,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1218,
+      "offset": 1369,
       "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1248,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1274,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1300,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1359,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1386,
-      "length": 1,
-      "value": "6"
+      "value": "5"
     },
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
       "kind": "IntegerLiteral",
       "offset": 1410,
       "length": 1,
-      "value": "5"
+      "value": "9"
     },
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1439,
+      "offset": 1430,
       "length": 1,
-      "value": "4"
+      "value": "7"
     },
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1359,
-      "length": 1,
-      "value": "1"
+      "offset": 1453,
+      "length": 2,
+      "value": "14"
     },
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1386,
-      "length": 1,
-      "value": "6"
+      "offset": 1483,
+      "length": 2,
+      "value": "18"
     },
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1410,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1439,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1359,
+      "offset": 1248,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1386,
+      "offset": 1279,
       "length": 1,
-      "value": "6"
+      "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1410,
+      "offset": 1312,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1346,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1369,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1439,
+      "offset": 1410,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1430,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1453,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1483,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1248,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1279,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1312,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1346,
       "length": 1,
       "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1369,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1410,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1430,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1453,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1483,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1545,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1575,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1601,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1627,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1545,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1575,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1601,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1627,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1545,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1575,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1601,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1627,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1686,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1713,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1737,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1766,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1785,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1686,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1713,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1737,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1766,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1785,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1686,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1713,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1737,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1766,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1785,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1849,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1873,
+      "length": 2,
+      "value": "21"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1849,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1873,
+      "length": 2,
+      "value": "21"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1849,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/LAFBeaconDeviceBeaconType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1873,
+      "length": 2,
+      "value": "21"
     },
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_101\/LAF101ChunkTransferInitReq_4.swift",

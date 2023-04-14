@@ -20551,9 +20551,233 @@
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gps\/4g\/Gps4gModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 423,
+      "offset": 150,
       "length": 1,
-      "value": "0"
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gps\/4g\/Gps4gModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 167,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gps\/4g\/Gps4gModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 184,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gps\/4g\/Gps4gModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 203,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gps\/4g\/Gps4gModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 222,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gps\/4g\/Gps4gModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 241,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gps\/4g\/Gps4gModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 260,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gps\/4g\/Gps4gModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 280,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gps\/4g\/Gps4gModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 299,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gps\/4g\/Gps4gModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 319,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gps\/4g\/Gps4gModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 339,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gps\/4g\/Gps4gModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 150,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gps\/4g\/Gps4gModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 167,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gps\/4g\/Gps4gModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 184,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gps\/4g\/Gps4gModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 203,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gps\/4g\/Gps4gModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 222,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gps\/4g\/Gps4gModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 241,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gps\/4g\/Gps4gModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 260,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gps\/4g\/Gps4gModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 280,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gps\/4g\/Gps4gModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 299,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gps\/4g\/Gps4gModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 319,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gps\/4g\/Gps4gModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 339,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gps\/4g\/Gps4gModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 150,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gps\/4g\/Gps4gModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 167,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gps\/4g\/Gps4gModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 184,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gps\/4g\/Gps4gModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 203,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gps\/4g\/Gps4gModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 222,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gps\/4g\/Gps4gModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 241,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gps\/4g\/Gps4gModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 260,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gps\/4g\/Gps4gModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 280,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gps\/4g\/Gps4gModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 299,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gps\/4g\/Gps4gModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 319,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/LAFBeaconDevice \/Modeules\/LAF_100\/Gps\/4g\/Gps4gModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 339,
+      "length": 2,
+      "value": "11"
     },
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Layer5Settings\/Coproc\/type1\/CoprocCANRX_3.swift",
@@ -21216,21 +21440,21 @@
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Helper\/Helper.swift",
       "kind": "IntegerLiteral",
-      "offset": 17296,
+      "offset": 17925,
       "length": 3,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Helper\/Helper.swift",
       "kind": "IntegerLiteral",
-      "offset": 17296,
+      "offset": 17925,
       "length": 3,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Helper\/Helper.swift",
       "kind": "IntegerLiteral",
-      "offset": 17296,
+      "offset": 17925,
       "length": 3,
       "value": "1"
     },

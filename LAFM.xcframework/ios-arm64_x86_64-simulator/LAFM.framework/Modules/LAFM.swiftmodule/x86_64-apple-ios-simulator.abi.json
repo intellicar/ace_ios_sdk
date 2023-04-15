@@ -9549,6 +9549,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LAFM",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "GPSGNGGAInfo",
         "printedName": "GPSGNGGAInfo",
@@ -16526,6 +16536,16 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "LAFM",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "LAFM"
       },
       {
@@ -21098,6 +21118,13 @@
       "value": "\"LAFM.SysInfo_1\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/FlashRes\/FlashResp.swift",
+      "kind": "Dictionary",
+      "offset": 157,
+      "length": 325,
+      "value": "[(1, \"Device ID\"), (2, \"Board Name\"), (3, \"IMIE\"), (4, \"Sim NO\"), (5, \"Main Firmware ID\"), (6, \"Main Set ID\"), (7, \"Main Boot Firmware ID\"), (8, \"Coprocessor Firmware ID\"), (9, \"Coprocessor Set ID\"), (10, \"Coprocessor Boot Firmware ID\"), (11, \"Device Publickey\")]"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Beacon\/Layer5Beacon\/Beacon\/Layer5Beacon.swift",
       "kind": "Array",
       "offset": 504,
@@ -21450,21 +21477,21 @@
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Helper\/Helper.swift",
       "kind": "IntegerLiteral",
-      "offset": 18203,
+      "offset": 18204,
       "length": 3,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Helper\/Helper.swift",
       "kind": "IntegerLiteral",
-      "offset": 18203,
+      "offset": 18204,
       "length": 3,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Helper\/Helper.swift",
       "kind": "IntegerLiteral",
-      "offset": 18203,
+      "offset": 18204,
       "length": 3,
       "value": "1"
     },
@@ -21623,49 +21650,49 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/GSMParser\/GSMParser.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/GSMParser\/GSMParser.swift",
       "kind": "Dictionary",
       "offset": 193,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/GSMParser\/GSMParser.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/GSMParser\/GSMParser.swift",
       "kind": "Array",
       "offset": 264,
       "length": 114,
       "value": "[\"MCC\", \"MNC\", \"TAC\", \"cellID\", \"PCI\", \"RX_lev\", \"RX_dbm\", \"EARFCN\", \"RSRP\", \"RSSI\", \"SINR\"]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/GSMParser\/GSMParser.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/GSMParser\/GSMParser.swift",
       "kind": "Array",
       "offset": 419,
       "length": 84,
       "value": "[\"MCC\", \"MNC\", \"LAC\", \"cellID\", \"BSIC\", \"RX_lev\", \"RX_dbm\", \"ARFCN\"]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/GSMParser\/GSMParser.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/GSMParser\/GSMParser.swift",
       "kind": "Array",
       "offset": 541,
       "length": 185,
       "value": "[\"is_tdd\", \"MCC\", \"MNC\", \"cellID\", \"PCI\", \"EARFCN\", \"freq_band_ind\", \"UL_bandwidth\", \"DL_bandwidth\", \"TAC\", \"RSRP\", \"RSRQ\", \"RSSI\", \"SINR\", \"srxlev\"]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/GSMParser\/GSMParser.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/GSMParser\/GSMParser.swift",
       "kind": "Array",
       "offset": 764,
       "length": 287,
       "value": "[\"MCC\", \"MNC\", \"LAC\", \"cellID\", \"BSIC\", \"ARFCN\", \"GSM_band\", \"RX_lev\", \"TX_power\", \"rla\", \"DRX\", \"c1\", \"c2\", \"GPRS_support\", \"TCH\", \"ts\", \"ta\", \"MAIO\", \"HSN\", \"RX_lev_sub\", \"RX_lev_full\", \"RX_qual_sub\", \"RX_qual_full\", \"voice_codec\"]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/GSMParser\/GSMParser.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/GSMParser\/GSMParser.swift",
       "kind": "Array",
       "offset": 1089,
       "length": 193,
       "value": "[\"EARFCN\", \"PCI\", \"RSRP\", \"RSRQ\", \"RSSI\", \"SINR\", \"srxlev\", \"cell_resel_priority\", \"s_non_intra_search\", \"thresh_serving_low\", \"s_intra_search\"]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/GSMParser\/GSMParser.swift",
+      "filePath": "\/Users\/runner\/work\/Flash_iOS_sdk_core\/Flash_iOS_sdk_core\/LAFM\/Manager\/Bluetooth\/GSMParser\/GSMParser.swift",
       "kind": "Array",
       "offset": 1320,
       "length": 106,

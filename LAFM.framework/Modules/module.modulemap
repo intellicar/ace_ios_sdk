@@ -1,7 +1,7 @@
 framework module LAFM {
   umbrella header "LAFM.h"
-
   export *
+
   module * { export * }
 }
 
